@@ -63,7 +63,6 @@
 			right: 0;
 			width: 100%;
 			height: 300px;
-			/* background-color: yellow; */
 			transition: all 1s ease-in-out;
 			z-index: 1;
 			opacity: 0;
@@ -82,5 +81,5 @@
 		#myDiv-3.scrolled-3-slide-3 {
 			display: none;
 			right: 100%;
-			opacity: 1;
+			opacity: 0;
 		}

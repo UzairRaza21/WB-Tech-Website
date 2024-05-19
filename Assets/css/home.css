@@ -81,7 +81,7 @@ body{
 
 /* Hero Start */
 
-
+/* Slide-1 */
 .hero-home-inner{
     width: 100%;
 
@@ -120,6 +120,8 @@ body{
       }
    }
 
+   /* Slide- 2 */
+
    .up{
     animation: up 1000ms ease ;
     animation-fill-mode: forwards;
@@ -151,13 +153,6 @@ body{
         transform: translate(-36%, -15%);
     }
    }
-
-
-
-
-
-
-
 
 
 .hero-home-slide-2{
@@ -194,8 +189,201 @@ body{
     transform: translate(-36%, -15%);
 }
 
+/* Slide-3 */
+
+.hero-home-slide-3{
+    display: flex;
+}
+.hero-home-slide-3-text{
+    font-family: var(--manrope-font-family);
+    text-align: center;
+    text-transform: uppercase;
+    flex-basis: 50%;
+}
+.hero-home-slide-3-text h1{
+    color: var(--heading-color);
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.slide-3-img-1 img{
+    width: 100%;
+    transform: translate(-278px, -340px);
+}
+.slide-3-img-2 img {
+    width: 100%;
+    transform: translate(-142px, -539px);
+}
+.slide-3-img-3 img {
+    width: 100%;
+    transform: translate(-30px, -713px);
+}
+.slide-3-img-4 img {
+    width: 100%;
+    transform: translate(80px, -884px);
+}
+.slide-3-img-5 img {
+    width: 100%;
+    transform: translate(200px, -1060px);
+}
 
 
+.hero-home-slide-3-banners-2 img{
+    width: 100%;
+}
+
+.diagonal-1{
+    animation: diagonal-1 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-1 {
+    0%{
+        transform: translate(-142px, -189px);
+    }
+    100%{
+        transform: translate(-278px, -340px);
+    }
+}
+
+.diagonal-2{
+    animation: diagonal-2 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-2 {
+    0%{
+        transform: translate(-29px, -364px);
+      
+    }
+    100%{
+        transform: translate(-142px, -539px);
+    }
+}
+
+.diagonal-3{
+    animation: diagonal-3 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-3 {
+    0%{
+        transform: translate(80px, -534px);
+      
+    }
+    100%{
+        transform: translate(-30px, -713px);
+    }
+}
+
+.diagonal-4{
+    animation: diagonal-4 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-4 {
+    0%{
+        transform: translate(201px, -707px);
+      
+    }
+    100%{
+        transform: translate(80px, -884px);
+    }
+}
+
+.diagonal-5{
+    animation: diagonal-5 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-5 {
+    0%{
+        transform: translate(323px, -910px);
+    }
+    100%{
+        transform: translate(200px, -1060px);
+    }
+}
+
+.slide-3-banner-img-1 img{
+    width: 100%;
+    transform: translate(-211px, -376px);
+}
+.slide-3-banner-img-2 img{
+    width: 100%;
+    transform: translate(-102px, -554px);
+}
+.slide-3-banner-img-3 img{
+    width: 100%;
+    transform: translate(8px, -728px);
+}
+.slide-3-banner-img-4 img{
+    width: 100%;
+    transform: translate(118px, -901px);
+}
+.slide-3-banner-img-5 img{
+    width: 100%;
+    transform: translate(258px, -1084px);
+}
+
+.diagonal-6{
+    animation: diagonal-6 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-6 {
+    0%{
+        transform: translate(-102px, -204px);
+    }
+    100%{
+        transform: translate(-211px, -376px);
+    }
+}
+
+.diagonal-7{
+    animation: diagonal-7 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-7 {
+    0%{
+        transform: translate(7px, -378px);
+    }
+    100%{
+        transform: translate(-102px, -554px);
+    }
+}
+.diagonal-8{
+    animation: diagonal-8 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-8 {
+    0%{
+        transform: translate(120px, -551px);
+    }
+    100%{
+      transform: translate(8px, -728px);
+}
+    }
+
+.diagonal-9{
+    animation: diagonal-9 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-9 {
+    0%{
+        transform: translate(257px, -732px);
+    }
+    100%{
+        transform: translate(118px, -901px);
+    }
+}
+.diagonal-10{
+    animation: diagonal-10 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes diagonal-10 {
+    0%{
+        transform: translate(386px, -940px);
+    }
+    100%{
+        transform: translate(258px, -1084px);
+    }
+}
 
 
 

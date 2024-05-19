@@ -84,6 +84,7 @@ window.addEventListener('scroll', function() {
     // Slide-3
     if (scrollPosition > 251 && scrollPosition < 300) {
         slide3.classList.add('scrolled-1-slide-3');
+        slide3.classList.remove('scrolled-2-slide-3');
     } 
     
     else if (scrollPosition >= 300 && scrollPosition < 350) {
