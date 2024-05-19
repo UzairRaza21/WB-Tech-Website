@@ -8,20 +8,19 @@ window.addEventListener('scroll', function() {
     // Slide- 1
     if (scrollPosition > 50 && scrollPosition < 100) {
         slide1.classList.add('scrolled-1');
-
+        slide1.classList.remove('scrolled-2');
     } 
     
-    else if (scrollPosition >= 100 && scrollPosition < 120) {
+    else if (scrollPosition >= 100 && scrollPosition < 150) {
         slide1.classList.remove('scrolled-1');
         slide1.classList.add('scrolled-2');
-        
     } 
     
     else {
         slide1.classList.remove('scrolled-1', 'scrolled-2');
     }
 
-    if(scrollPosition >= 120){
+    if(scrollPosition >= 150){
         slide1.style.display = 'none';
     }
     else{
@@ -42,9 +41,8 @@ window.addEventListener('scroll', function() {
     var ball2 = document.querySelector('.ball-2')
 
     // Slide-2
-    if (scrollPosition > 120 && scrollPosition < 200) {
+    if (scrollPosition > 151 && scrollPosition < 200) {
         slide2.classList.add('scrolled-1-slide-2');
-        slide2.classList.remove('scrolled-2-slide-2');
         ball1.classList.toggle('up');
         ball2.classList.toggle('down');
        
@@ -53,9 +51,16 @@ window.addEventListener('scroll', function() {
     else if (scrollPosition >= 200 && scrollPosition < 250) {
         slide2.classList.remove('scrolled-1-slide-2');
         slide2.classList.add('scrolled-2-slide-2');
+        ball1.classList.toggle('up');
+        ball2.classList.toggle('down');
     } 
     
-
+    else if (scrollPosition >= 300 && scrollPosition < 350) {
+        slide2.classList.remove('scrolled-2-slide-2');
+        slide2.classList.add('scrolled-3-slide-2');
+        ball1.classList.remove('up');
+        ball2.classList.remove('down');
+    } 
     else {
         slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2');
     }
@@ -78,16 +83,16 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
 
     // Slide-3
-    if (scrollPosition > 251 && scrollPosition < 300) {
+    if (scrollPosition > 351 && scrollPosition < 400) {
         slide3.classList.add('scrolled-1-slide-3');
     } 
     
-    else if (scrollPosition >= 300 && scrollPosition < 350) {
+    else if (scrollPosition >= 400 && scrollPosition < 450) {
         slide3.classList.remove('scrolled-1-slide-3');
         slide3.classList.add('scrolled-2-slide-3');
     } 
     
-    else if (scrollPosition >= 350 && scrollPosition < 400) {
+    else if (scrollPosition >= 450 && scrollPosition < 500) {
         slide3.classList.remove('scrolled-2-slide-3');
         slide3.classList.add('scrolled-3-slide-3');
     } 

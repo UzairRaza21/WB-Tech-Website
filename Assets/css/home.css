@@ -121,7 +121,8 @@ body{
    }
 
    .up{
-    animation: up 2000ms linear ;
+    animation: up 1000ms ease ;
+    animation-fill-mode: forwards;
    }
 
    @keyframes up {
@@ -137,7 +138,8 @@ body{
 
 
    .down{
-        animation: down 2000ms linear;
+        animation: down 1000ms ease;
+        animation-fill-mode: forwards;
    }
 
    @keyframes down {
