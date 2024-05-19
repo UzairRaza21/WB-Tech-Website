@@ -1,7 +1,7 @@
 		/* Slide 1 */
         #myDiv-1 {
 			position: fixed;
-			top: 150px;
+			top: 200px;
 			right: 0;
 			width: 100%;
 			height: 300px;
@@ -10,13 +10,13 @@
 		}
 
 		#myDiv-1.scrolled-1 {
-			right: 0%;
+			right: 100%;
 		}
 
 		#myDiv-1.scrolled-2 {
 			right: 100%;
-			display: none;
 			opacity: 0;
+			display: none;
 		}
 
 
@@ -24,7 +24,7 @@
 /* Slide 2 */
 		#myDiv-2 {
 			position: fixed;
-			top: 150px;
+			top: 200px;
 			right: 0%;
 			width: 100%;
 			height: 300px;
@@ -59,7 +59,7 @@
 
 		#myDiv-3 {
 			position: fixed;
-			top: 150px;
+			top: 200px;
 			right: 0;
 			width: 100%;
 			height: 300px;
@@ -74,12 +74,12 @@
 		}
 
 		#myDiv-3.scrolled-2-slide-3 {
-			right: 50%;
-			opacity: 1;
-		}
-
-		#myDiv-3.scrolled-3-slide-3 {
-			display: none;
 			right: 100%;
 			opacity: 0;
 		}
+
+		/* #myDiv-3.scrolled-3-slide-3 {
+			display: none;
+			right: 100%;
+			opacity: 0;
+		} */

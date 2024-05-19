@@ -11,7 +11,7 @@ window.addEventListener('scroll', function() {
         slide1.classList.remove('scrolled-2');
     } 
     
-    else if (scrollPosition >= 100 && scrollPosition < 150) {
+    else if (scrollPosition >= 100 && scrollPosition < 100) {
         slide1.classList.remove('scrolled-1');
         slide1.classList.add('scrolled-2');
     } 
@@ -20,14 +20,12 @@ window.addEventListener('scroll', function() {
         slide1.classList.remove('scrolled-1', 'scrolled-2');
     }
 
-    if(scrollPosition >= 150){
+    if(scrollPosition >= 100){
         slide1.style.display = 'none';
     }
     else{
         slide1.style.display = 'block';
     }
-
-
 });
 
 
@@ -49,7 +47,7 @@ window.addEventListener('scroll', function() {
        
     } 
     
-    else if (scrollPosition >= 200 && scrollPosition < 250) {
+    else if (scrollPosition >= 200 && scrollPosition < 200) {
         slide2.classList.remove('scrolled-1-slide-2');
         slide2.classList.add('scrolled-2-slide-2');
     } 
@@ -64,7 +62,7 @@ window.addEventListener('scroll', function() {
         slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2', 'scrolled-3-slide-2');
     }
 
-    if(scrollPosition >= 250){
+    if(scrollPosition >= 200){
         slide2.style.display = 'none';
     }
     else{
@@ -80,33 +78,39 @@ window.addEventListener('scroll', function() {
 
     var slide3 = document.getElementById('myDiv-3');
     var scrollPosition = window.scrollY;
+    var heroBg = document.querySelector('.header-bg');
 
     // Slide-3
-    if (scrollPosition > 251 && scrollPosition < 300) {
+    if (scrollPosition > 201 && scrollPosition < 250) {
         slide3.classList.add('scrolled-1-slide-3');
         slide3.classList.remove('scrolled-2-slide-3');
     } 
     
-    else if (scrollPosition >= 300 && scrollPosition < 350) {
+    else if (scrollPosition >= 250 && scrollPosition < 300) {
         slide3.classList.remove('scrolled-1-slide-3');
         slide3.classList.add('scrolled-2-slide-3');
     } 
     
-    else if (scrollPosition >= 350 && scrollPosition < 400) {
-        slide3.classList.remove('scrolled-2-slide-3');
-        slide3.classList.add('scrolled-3-slide-3');
-    } 
+    // else if (scrollPosition >= 350 && scrollPosition < 400) {
+    //     slide3.classList.remove('scrolled-2-slide-3');
+    //     slide3.classList.add('scrolled-3-slide-3');
+    // } 
     else {
         slide3.classList.remove('scrolled-1-slide-3', 'scrolled-2-slide-3', 'scrolled-3-slide-3');
     }
 
-    if(scrollPosition >= 400){
+    if(scrollPosition >= 300){
         slide3.style.display = 'none';
+        heroBg.style.position = 'static';
+        
     }
     else{
         slide3.style.display = 'block';
+        heroBg.style.position = 'fixed';
     }
     
 });
+
+
 
 
