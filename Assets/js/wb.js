@@ -53,9 +53,15 @@ window.addEventListener('scroll', function() {
         slide2.classList.remove('scrolled-1-slide-2');
         slide2.classList.add('scrolled-2-slide-2');
     } 
-
+    
+    // else if (scrollPosition >= 300 && scrollPosition < 350) {
+    //     slide2.classList.remove('scrolled-2-slide-2');
+    //     slide2.classList.add('scrolled-3-slide-2');
+    //     ball1.classList.remove('up');
+    //     ball2.classList.remove('down');
+    // } 
     else {
-        slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2');
+        slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2', 'scrolled-3-slide-2');
     }
 
     if(scrollPosition >= 250){
