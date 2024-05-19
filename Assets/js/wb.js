@@ -11,23 +11,17 @@ window.addEventListener('scroll', function() {
 
     } 
     
-    else if (scrollPosition >= 100 && scrollPosition < 200) {
+    else if (scrollPosition >= 100 && scrollPosition < 120) {
         slide1.classList.remove('scrolled-1');
         slide1.classList.add('scrolled-2');
         
     } 
     
-    else if (scrollPosition >= 200 && scrollPosition <= 300) {
-        slide1.classList.remove('scrolled-2');
-        slide1.classList.add('scrolled-3');
-
-    } 
-    
     else {
-        slide1.classList.remove('scrolled-1', 'scrolled-2', 'scrolled-3');
+        slide1.classList.remove('scrolled-1', 'scrolled-2');
     }
 
-    if(scrollPosition >= 300){
+    if(scrollPosition >= 120){
         slide1.style.display = 'none';
     }
     else{
@@ -44,30 +38,29 @@ window.addEventListener('scroll', function() {
 
     var slide2 = document.getElementById('myDiv-2');
     var scrollPosition = window.scrollY;
-    var ball1 = document.querySelector('.hero-home-slide-2-ball-1');
+    var ball1 = document.querySelector('.ball-1');
+    var ball2 = document.querySelector('.ball-2')
 
     // Slide-2
-    if (scrollPosition > 301 && scrollPosition < 400) {
+    if (scrollPosition > 120 && scrollPosition < 200) {
         slide2.classList.add('scrolled-1-slide-2');
+        slide2.classList.remove('scrolled-2-slide-2');
+        ball1.classList.toggle('up');
+        ball2.classList.toggle('down');
        
     } 
     
-    else if (scrollPosition >= 400 && scrollPosition < 500) {
+    else if (scrollPosition >= 200 && scrollPosition < 250) {
         slide2.classList.remove('scrolled-1-slide-2');
         slide2.classList.add('scrolled-2-slide-2');
-        ball1.classList.add('up');
     } 
     
-    else if (scrollPosition >= 600 && scrollPosition < 700) {
-        slide2.classList.remove('scrolled-2-slide-2');
-        slide2.classList.add('scrolled-3-slide-2');
-        ball1.classList.remove('up');
-    } 
+
     else {
-        slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2', 'scrolled-3-slide-2');
+        slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2');
     }
 
-    if(scrollPosition >= 700){
+    if(scrollPosition >= 250){
         slide2.style.display = 'none';
     }
     else{
@@ -85,16 +78,16 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
 
     // Slide-3
-    if (scrollPosition > 701 && scrollPosition < 800) {
+    if (scrollPosition > 251 && scrollPosition < 300) {
         slide3.classList.add('scrolled-1-slide-3');
     } 
     
-    else if (scrollPosition >= 900 && scrollPosition < 1000) {
+    else if (scrollPosition >= 300 && scrollPosition < 350) {
         slide3.classList.remove('scrolled-1-slide-3');
         slide3.classList.add('scrolled-2-slide-3');
     } 
     
-    else if (scrollPosition >= 1000 && scrollPosition < 1100) {
+    else if (scrollPosition >= 350 && scrollPosition < 400) {
         slide3.classList.remove('scrolled-2-slide-3');
         slide3.classList.add('scrolled-3-slide-3');
     } 
@@ -102,7 +95,7 @@ window.addEventListener('scroll', function() {
         slide3.classList.remove('scrolled-1-slide-3', 'scrolled-2-slide-3', 'scrolled-3-slide-3');
     }
 
-    if(scrollPosition >= 1100){
+    if(scrollPosition >= 500){
         slide3.style.display = 'none';
     }
     else{

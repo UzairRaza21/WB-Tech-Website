@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     height: 5000px;
@@ -118,31 +121,32 @@ body{
    }
 
    .up{
-    animation: up 5s linear ;
+    animation: up 2000ms linear ;
    }
 
    @keyframes up {
     0%{
-        transform: translateY(100%);
+        transform: translate(-36%, 0%);
+        
     }
 
     100%{
-        transform: translateY(-100%);
+        transform: translate(-36%, -60%);
     }
    }
 
 
    .down{
-        animation: down 5s linear ;
+        animation: down 2000ms linear;
    }
 
    @keyframes down {
     0%{
-        transform: translateY(-100%);
+        transform: translate(-36%, -75%);
     }
 
     100%{
-        transform: translateY(100%);
+        transform: translate(-36%, -15%);
     }
    }
 
@@ -178,14 +182,14 @@ body{
 }
 
 .hero-home-slide-2-ball-1 img{
-    width: 100%;
-    transform: translate(-30%, -70%);
+    width: 300%;
+    transform: translate(-36%, -60%);
    
 }
 
 .hero-home-slide-2-ball-2 img{
-    width: 100%;
-    transform: translateY(100%);
+    width: 300%;
+    transform: translate(-36%, -15%);
 }
 
 
