@@ -42,16 +42,16 @@
 
 		#myDiv-2.scrolled-2-slide-2 {
 			right: 100%;
-			opacity: 1;
+			opacity: 0;
 		}
 
 
 /* --------------------------------------------------- */
-		#myDiv-2.scrolled-3-slide-2 {
+		/* #myDiv-2.scrolled-3-slide-2 {
 			display: none;
 			right: 100%;
 			opacity: 0;
-		}
+		} */
 
 
         

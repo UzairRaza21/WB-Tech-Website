@@ -43,6 +43,7 @@ window.addEventListener('scroll', function() {
     // Slide-2
     if (scrollPosition > 151 && scrollPosition < 200) {
         slide2.classList.add('scrolled-1-slide-2');
+        slide2.classList.remove('scrolled-2-slide-2');
         ball1.classList.toggle('up');
         ball2.classList.toggle('down');
        
@@ -51,16 +52,8 @@ window.addEventListener('scroll', function() {
     else if (scrollPosition >= 200 && scrollPosition < 250) {
         slide2.classList.remove('scrolled-1-slide-2');
         slide2.classList.add('scrolled-2-slide-2');
-        ball1.classList.toggle('up');
-        ball2.classList.toggle('down');
     } 
-    
-    else if (scrollPosition >= 300 && scrollPosition < 350) {
-        slide2.classList.remove('scrolled-2-slide-2');
-        slide2.classList.add('scrolled-3-slide-2');
-        ball1.classList.remove('up');
-        ball2.classList.remove('down');
-    } 
+
     else {
         slide2.classList.remove('scrolled-1-slide-2', 'scrolled-2-slide-2');
     }
@@ -83,16 +76,16 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
 
     // Slide-3
-    if (scrollPosition > 351 && scrollPosition < 400) {
+    if (scrollPosition > 251 && scrollPosition < 300) {
         slide3.classList.add('scrolled-1-slide-3');
     } 
     
-    else if (scrollPosition >= 400 && scrollPosition < 450) {
+    else if (scrollPosition >= 300 && scrollPosition < 350) {
         slide3.classList.remove('scrolled-1-slide-3');
         slide3.classList.add('scrolled-2-slide-3');
     } 
     
-    else if (scrollPosition >= 450 && scrollPosition < 500) {
+    else if (scrollPosition >= 350 && scrollPosition < 400) {
         slide3.classList.remove('scrolled-2-slide-3');
         slide3.classList.add('scrolled-3-slide-3');
     } 
@@ -100,7 +93,7 @@ window.addEventListener('scroll', function() {
         slide3.classList.remove('scrolled-1-slide-3', 'scrolled-2-slide-3', 'scrolled-3-slide-3');
     }
 
-    if(scrollPosition >= 500){
+    if(scrollPosition >= 400){
         slide3.style.display = 'none';
     }
     else{
