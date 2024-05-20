@@ -173,19 +173,21 @@ body{
     font-family: var(--manrope-font-family);
     text-align: center;
     text-transform: uppercase;
-    flex-basis: 200%;
+    flex-basis: 100%;
 }
 .hero-home-slide-2-text h1{
     color: rgba(133, 163, 254, 1);
-    font-size: 55px;
+    font-size: 90px;
     font-weight: 400;
-    line-height: 55px;
+    line-height: 90px;
+    width: 90%;
+    margin: 0 auto;
 }
 .hero-bold-text{
     color: var(--heading-color);
-    font-size: 55px;
+    font-size: 90px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 90px;
 }
 
 .hero-home-slide-2-ball-1 img{
@@ -430,6 +432,22 @@ body{
     .hero-wheel img{
         width: 6%;
     }
+
+    .hero-home-slide-2-text{
+        flex-basis: 200%;
+    }
+
+    .hero-home-slide-2-text h1{
+        font-size: 55px;
+        line-height: 55px;
+        width: 100%;
+
+    }
+    .hero-bold-text{
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 55px;
+    }
 }
 
 
@@ -449,6 +467,22 @@ body{
         line-height: 50px;
         width: 100%;
     }
+
+    .hero-home-slide-2-text{
+        flex-basis: 250%;
+    }
+
+    .hero-home-slide-2-text h1{
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+
+    }
+    .hero-bold-text{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -475,10 +509,27 @@ body{
     .hero-wheel img{
         width: 7%;
     }
+
+    .hero-home-slide-2-text{
+        flex-basis: 300%;
+    }
+
+    .hero-home-slide-2-text h1{
+        font-size: 30px;
+        line-height: 30px;
+        width: 100%;
+
+    }
+    .hero-bold-text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+
     
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
 
     .nav-inner{
         padding: 0 25px;
@@ -495,11 +546,43 @@ body{
     .hero-wheel img{
         width: 7%;
     }
+
+
+    .hero-home-slide-2-text{
+        flex-basis: 100%;
+    }
+
+    .hero-home-slide-2-text h1{
+        font-size: 30px;
+        line-height: 30px;
+        width: 68%;
+    }
+    .hero-bold-text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .hero-home-slide-2-ball-1 img{
+        display: none;      
+    }
+    
+    .hero-home-slide-2-ball-2 img{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
  
     .hero-text h1{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .hero-home-slide-2-text h1 {
+        font-size: 25px;
+        line-height: 25px;
+        width: 70%;
+    }
+    .hero-bold-text{
         font-size: 25px;
         line-height: 25px;
     }
@@ -510,4 +593,8 @@ body{
     .hero-text h1{
         width: 250px;
     }
+    .hero-home-slide-2-text h1 {
+        width: 80%;
+    }
+
 }
