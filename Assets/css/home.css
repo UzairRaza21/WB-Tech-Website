@@ -31,7 +31,6 @@ body{
         --para-font-size-425px: 20px;
     }
 
-
 .header-bg{
     background-image: url(../Images/Home/hero-bg.png);
     background-size: cover;
@@ -40,7 +39,6 @@ body{
     position: fixed;
     width: 100%;
 }
-
 
 
 /* Nav Start */
@@ -84,8 +82,6 @@ body{
 .nav-links li a:active{
     font-weight: 600;
 }
-
-
 
 
 .mobile-nav-links{
@@ -557,6 +553,14 @@ body{
     }
 }
 
+
+/* About Company Section */
+.after-slider-section{
+    display: none;
+}
+.about-company{
+    
+}
 
 
 

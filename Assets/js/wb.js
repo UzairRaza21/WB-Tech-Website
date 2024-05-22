@@ -1,3 +1,19 @@
+// After Slider Section
+window.addEventListener('scroll', function(){
+    var afterSliderSection = document.querySelector('.after-slider-section');
+    var scrollPosition = window.scrollY;
+
+    if(scrollPosition >= 600){
+        afterSliderSection.style.display = 'block';
+    }
+    else{
+        afterSliderSection.style.display = 'none'
+    }
+})
+
+
+
+
 // NAV BAR CODE
 let mobileNavLinks = document.querySelector('.mobile-nav-links');
 let mainNavbar = document.querySelector('.nav-inner');
@@ -34,6 +50,9 @@ window.onresize = navSize;
 
 // HERO SLIDER CODE
 window.addEventListener('scroll', function() {
+
+
+    
 
     var slide1 = document.getElementById('myDiv-1');
     var slide2 = document.getElementById('myDiv-2');
