@@ -1,3 +1,27 @@
+// NAV BAR CODE
+let mobileNavLinks = document.querySelector('.mobile-nav-links');
+let hamburger = document.querySelector('.nav-hamburger');
+let mainNavbar = document.querySelector('.nav-inner');
+let mediaQuery = window
+
+hamburger.addEventListener('click', function(){
+    // if(width > 768){
+        mainNavbar.classList.toggle('nav-inner-mobile')
+        mobileNavLinks.classList.toggle('open');
+    // }
+    // else{
+    //     mainNavbar.classList.remove('nav-inner-mobile')
+    //     mobileNavLinks.classList.remove('open'); 
+    // }
+
+})
+
+
+
+
+
+
+// HERO SLIDER CODE
 window.addEventListener('scroll', function() {
 
     var slide1 = document.getElementById('myDiv-1');
