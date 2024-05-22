@@ -2,7 +2,7 @@
 let mobileNavLinks = document.querySelector('.mobile-nav-links');
 let hamburger = document.querySelector('.nav-hamburger');
 let mainNavbar = document.querySelector('.nav-inner');
-let mediaQuery = window
+
 
 hamburger.addEventListener('click', function(){
     // if(width > 768){
