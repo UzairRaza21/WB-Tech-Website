@@ -1,10 +1,18 @@
 // NAV BAR CODE
 let mobileNavLinks = document.querySelector('.mobile-nav-links');
 let mainNavbar = document.querySelector('.nav-inner');
+let hamBarTop = document.querySelector('.bar-top');
+let hamBarMiddle = document.querySelector('.bar-middle');
+let hamBarBottom = document.querySelector('.bar-bottom');
+
+
 
 function navShow(){
     mainNavbar.classList.toggle('nav-inner-mobile')
     mobileNavLinks.classList.toggle('open');
+    hamBarTop.classList.toggle('change-bar-top');
+    hamBarMiddle.classList.toggle('change-bar-middle');
+    hamBarBottom.classList.toggle('change-bar-bottom');
 }
 
 function navSize(){
@@ -12,15 +20,12 @@ function navSize(){
   if (window.matchMedia("(min-width: 768px)").matches) {
     mainNavbar.classList.remove('nav-inner-mobile')
     mobileNavLinks.classList.remove('open');
+
   } 
 }
 
 window.onload = navSize;
 window.onresize = navSize;
-
-
-
-
 
 
 
