@@ -20,6 +20,9 @@ function navSize(){
   if (window.matchMedia("(min-width: 768px)").matches) {
     mainNavbar.classList.remove('nav-inner-mobile')
     mobileNavLinks.classList.remove('open');
+    hamBarTop.classList.remove('change-bar-top');
+    hamBarMiddle.classList.remove('change-bar-middle');
+    hamBarBottom.classList.remove('change-bar-bottom');
 
   } 
 }
