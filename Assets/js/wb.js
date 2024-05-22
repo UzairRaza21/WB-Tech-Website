@@ -1,20 +1,23 @@
 // NAV BAR CODE
 let mobileNavLinks = document.querySelector('.mobile-nav-links');
-let hamburger = document.querySelector('.nav-hamburger');
 let mainNavbar = document.querySelector('.nav-inner');
 
+function navShow(){
+    mainNavbar.classList.toggle('nav-inner-mobile')
+    mobileNavLinks.classList.toggle('open');
+}
 
-hamburger.addEventListener('click', function(){
-    // if(width > 768){
-        mainNavbar.classList.toggle('nav-inner-mobile')
-        mobileNavLinks.classList.toggle('open');
-    // }
-    // else{
-    //     mainNavbar.classList.remove('nav-inner-mobile')
-    //     mobileNavLinks.classList.remove('open'); 
-    // }
+function navSize(){
 
-})
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    mainNavbar.classList.remove('nav-inner-mobile')
+    mobileNavLinks.classList.remove('open');
+  } 
+}
+
+window.onload = navSize;
+window.onresize = navSize;
+
 
 
 
