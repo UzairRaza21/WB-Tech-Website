@@ -678,17 +678,18 @@ body{
 .slider-3D-main{
     position: absolute;
     width: 50%;
+    top: -50%;
 
 }
 
 
 /* Our Srevices */
 .our-services{
-    margin: 25% 0% 10% 0%;
+    margin: 20% 0% 10% 0%;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 10px 10px 260px 200px #DCE5FF ;
     border-radius: 48px;
-    height: 500px;
+    height: 400px;
 }
 .our-services-inner{
     display: grid;
