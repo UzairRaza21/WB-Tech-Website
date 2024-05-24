@@ -19,16 +19,16 @@ body{
         --para-color:  rgba(121, 121, 121, 1);
         --main-font-size-1920px: 60px;
         --para-font-size-1920px: 26px;
-        --main-font-size-1440px: 48px;
+        --main-font-size-1440px: 40px;
         --para-font-size-1440px: 26px;
-        --main-font-size-1200px: 60px;
+        --main-font-size-1200px: 40px;
         --para-font-size-1200px: 26px;
-        --main-font-size-1024px: 50px;
-        --para-font-size-1024px: 26px;
+        --main-font-size-1024px: 40px;
+        --para-font-size-1024px: 24px;
         --main-font-size-768px: 40px;
-        --para-font-size-768px: 24px;
-        --main-font-size-425px: 30px;
-        --para-font-size-425px: 20px;
+        --para-font-size-768px: 20px;
+        --main-font-size-425px: 20px;
+        --para-font-size-425px: 18px;
     }
 
 .header-bg{
@@ -562,8 +562,7 @@ body{
     margin: -5% 10% 10% 10%;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 14px 46.6px -10px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-
+    border-radius: 48px;
 }
 .about-company-inner{
     display: grid;
@@ -577,7 +576,6 @@ body{
 }
 .about-company-gif img{
  width: 100%;
- border-radius: 0px 30px 30px 0px;
  height: 100%;
 }
 
@@ -601,6 +599,127 @@ body{
     padding: 10px 25px;
     color: var(--para-color);
 }
+.myPanels{
+    width: 210px;
+    height: 140px;
+    position: relative;
+    perspective: 1000px;
+    margin-left: 400px;
+    margin-top: 50px; 
+  }
+  #carousel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 10000px;
+  
+  }
+  #carousel .pane{
+    margin: 0px;
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 336px;
+    left: 10px;
+    top: 10px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    box-shadow: 0px 23px 33px 0px rgba(0, 0, 0, 0.15);
+
+  }
+  
+  #carousel {
+      transition: transform 1.0s;
+  }
+  .pane{
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .buttons{
+    margin-top: 60px;
+  }
+
+
+
+  
+  /* Custom Changes */
+.slider-3D-card{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.slider-3D-img{
+    background-image: url(./Images/Ellipse\ 26.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-3D-img img{
+    width: 50%;
+}
+.slider-3D-text{
+    padding: 10px;
+}
+.slider-3D-text h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.slider-3D-text p{
+    font-size: 12px;
+}
+
+.slider-3D-text h2{
+    font-size: 14px;
+}
+.slider-3D-main{
+    position: absolute;
+    width: 50%;
+
+}
+
+
+/* Our Srevices */
+.our-services{
+    margin: 25% 0% 10% 0%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 260px 200px #DCE5FF ;
+    border-radius: 48px;
+    height: 500px;
+}
+.our-services-inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    position: relative;
+    padding: 0% 10% 0% 10%;
+}
+.our-services-heading{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -18%;
+}
+.our-services-heading h1{
+    transform: translateX(-22.5%);
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.our-services-text{
+    padding: 100px 50px 100px 100px;
+}
+
+.our-services-text p{
+    width: 80%;
+    padding: 10px 25px;
+    color: var(--para-color);
+}
+
+
 
 
 
