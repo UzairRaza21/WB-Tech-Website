@@ -865,7 +865,7 @@ body{
     text-transform: uppercase;
     font-weight: 300;
 }
-.testimonial-slider{
+.testimonial-slider-main{
     background-image: url(../Images/Home/testimonial-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -874,10 +874,11 @@ body{
 /* Testimonial Slider  CSS Start*/
 .testimonial-slider{
     height: 400px;
+    position: relative;
 }
 .testimonial-slider .slider-container {
         position: relative;
-        width: 60%;
+        width: 65%;
         margin: auto;
         overflow: hidden;
         padding-top: 50px;
@@ -888,13 +889,13 @@ body{
     .testimonial-slider  .slider-wrapper {
         display: flex;
         transition: transform 0.5s ease;
-        gap: 50px; /* Space between slides */
+        gap: 30px; /* Space between slides */
         margin-top: 100px;
         margin-bottom: 100px;
     }
     .testimonial-slider  .slider-slide {
-        flex: 1 0 30.6667%;
-        max-width: 30.6667%;
+        flex: 1 0 30%;
+        max-width: 30%;
         box-sizing: border-box;
         padding: 20px;
         text-align: center;
@@ -934,7 +935,7 @@ body{
     }
     .testimonial-slider  .nav-button {
         position: absolute;
-        top: 50%;
+        top: 60%;
         transform: translateY(-50%);
         border: none;
         padding: 10px;
@@ -946,10 +947,10 @@ body{
         width: 80%;
     }
     .testimonial-slider  .nav-button-left {
-        left: 0%;
+        left: 8%;
     }
     .testimonial-slider  .nav-button-right {
-        right: 0%;
+        right: 8%;
     }
 
 
