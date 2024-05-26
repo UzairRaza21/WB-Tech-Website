@@ -599,6 +599,7 @@ body{
     padding: 10px 25px;
     color: var(--para-color);
 }
+/* Our Services */
 .myPanels{
     width: 210px;
     height: 140px;
@@ -619,8 +620,8 @@ body{
     margin: 0px;
     display: block;
     position: absolute;
-    width: 186px;
-    height: 336px;
+    width: 220px;
+    height: 380px;
     left: 10px;
     top: 10px;
     border: 2px solid lightgray;
@@ -652,24 +653,53 @@ body{
     border-radius: 30px;
 }
 .slider-3D-img{
-    background-image: url(./Images/Ellipse\ 26.png);
-    background-size: contain;
+    background-image: url(../Images/Home/Ellipse\ 26.png);
+    background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;
+    transform: translateY(25px);
+    height: 145px;
+
 }
 .slider-3D-img img{
     width: 50%;
+    margin: 12px;
 }
 .slider-3D-text{
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
 }
 .slider-3D-text h1{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
+    color: var(--heading-color);
+    font-weight: 400;
+    line-height: 18px;
+
 }
 
 .slider-3D-text p{
     font-size: 12px;
+    color: var(--para-color);
+    padding: 0 10px;
+}
+.learn-more{
+    color: var(--heading-color);
+    font-weight: 400;
+}
+
+.learn-circle{
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+    margin: 0px 10px ;
+    
+}
+.learn-circle img{
+    width: 10%;
+    padding: 8px 4px 0px 4px;
 }
 
 .slider-3D-text h2{
@@ -679,6 +709,7 @@ body{
     position: absolute;
     width: 50%;
     top: -50%;
+    right: 10%;
 
 }
 
@@ -714,12 +745,212 @@ body{
     padding: 100px 50px 100px 100px;
 }
 
-.our-services-text p{
+#detail-description{
     width: 80%;
-    padding: 10px 25px;
+    padding: 10px 35px;
     color: var(--para-color);
 }
 
+#detail-title{
+    color: var(--heading-color);
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px 35px;
+}
+
+/* Our Process Slider*/
+
+.working-process{
+    margin: 20% 15% 10% 15%;
+    height: 500px;
+}
+.working-process-heading{
+    display: flex;
+    align-items: center;
+}
+
+.working-process-heading h1{
+    transform: translateX(-18.5%);
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.working-process-slider {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10% auto;
+}
+.working-process-slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.working-process-slider .slider {
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 23px 33px 0px rgba(0, 0, 0, 0.3);
+}
+.working-process-slider .next-button {
+    padding: 10px 20px;
+    font-size: 90px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 20%;
+    height: 250px ;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0px 23px 33px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    transition: all 500ms;
+    color: var(--heading-color);
+
+}
+.working-process-slider .slides {
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+.working-process-slider .slide {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.working-process-slider .slide-text{
+    width: 85%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.working-process-slider .slide-text h1{
+    color: var(--heading-color);
+    font-weight: 600;
+}
+.working-process-slider .slide-text p{
+    color: var(--para-color);
+    font-size: 18px;
+}
+
+.working-process-slider .slide-img{
+    width: 15%;
+    position: relative;
+    height: 250px;
+}
+.working-process-slider .slide-img img {
+    width: 90%;
+    position: absolute;
+    height: 70%;
+    right: 0%;
+    top: 15%;
+}
+
+/* Testimonial */
+
+
+.testimonial-heading{
+    display: flex;
+    align-items: center;
+    padding: 0% 15% 0% 15%;
+}
+.testimonial-heading h1{
+    transform: translateX(-28.5%);
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.testimonial-slider{
+    background-image: url(../Images/Home/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Testimonial Slider  CSS Start*/
+.testimonial-slider{
+    height: 400px;
+}
+.testimonial-slider .slider-container {
+        position: relative;
+        width: 60%;
+        margin: auto;
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        
+    }
+    .testimonial-slider  .slider-wrapper {
+        display: flex;
+        transition: transform 0.5s ease;
+        gap: 50px; /* Space between slides */
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .testimonial-slider  .slider-slide {
+        flex: 1 0 30.6667%;
+        max-width: 30.6667%;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #8e4747;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+
+    
+    .testimonial-slider  .testimonial-img img {
+        max-width: 100%;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        transition: transform 0.5s ease;
+        margin-top: -100px;
+    }
+    .testimonial-slider  .slider-slide p {
+        transition: transform 0.5s ease;
+    }
+    .testimonial-slider  .slider-slide-center {
+        transform: scale(1.1);
+    }
+    .testimonial-slider  .slider-slide-center.active,
+    .testimonial-slider  .slider-slide-adjacent.active {
+        transform: scale(1.5);
+        height: auto;
+    }
+    .testimonial-slider  .slider-slide-adjacent.active img,
+    .testimonial-slider  .slider-slide-adjacent.active p {
+        display: none;
+    }
+    .testimonial-slider  .nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .testimonial-slider  .nav-button img{
+        width: 80%;
+    }
+    .testimonial-slider  .nav-button-left {
+        left: 0%;
+    }
+    .testimonial-slider  .nav-button-right {
+        right: 0%;
+    }
 
 
 
@@ -784,7 +1015,7 @@ body{
     /* About Company Section */
 
 .about-company{
-    margin: -5% 5% 5% 5%;
+    margin: 10% 5% 5% 5%;
 }
 
 .about-company-text{
@@ -805,6 +1036,34 @@ body{
 .about-company-text p{
     width: 80%;
     padding: 10px auto;
+    color: var(--para-color);
+}
+/* Our Services */
+.our-services-inner{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    position: relative;
+    padding: 0% 5% 0% 5%;
+}
+.our-services-heading{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -18%;
+}
+.our-services-heading h1{
+    transform: translateX(-22.5%);
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.our-services-text{
+    padding: 100px 50px 100px 100px;
+}
+
+.our-services-text p{
+    width: 80%;
+    padding: 10px 25px;
     color: var(--para-color);
 }
 
