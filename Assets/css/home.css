@@ -878,7 +878,7 @@ body{
     background-image: url(../Images/Home/testimonial-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 900px;
 }
 
 /* Testimonial Slider  CSS Start*/
@@ -891,7 +891,7 @@ body{
         width: 75%;
         margin: auto;
         overflow: hidden;
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 50px;
         height: auto;
         
@@ -965,7 +965,9 @@ body{
     }
 
     /* Client Section */
-
+.served-companies{
+    margin: 5% 0;
+}
     
 .clients {
     padding: 80px 0;
@@ -1001,12 +1003,11 @@ body{
 
 
   /* USA Service */
-  .service-in-usa-inner{
 
-  }
   .usa-service-heading{
     display: flex;
     align-items: center;
+    padding: 0 100px 0 100px ;
   }
 
   .usa-service-heading h1{
@@ -1018,6 +1019,16 @@ body{
 }
 
 
+
+
+
+/* Footer */
+
+footer{
+    background-image: url(../Images/Home/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
