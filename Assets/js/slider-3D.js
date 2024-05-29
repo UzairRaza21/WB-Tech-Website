@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-    var panelSize = 236;
+    var panelSize = 256;
     var numberOfPanels = $('.pane').length - 1;
     var tz = Math.round((panelSize / 2) / Math.tan(((Math.PI * 2) / numberOfPanels) / 2)); //traslateZ
     var rY = (360 / numberOfPanels); //rotateY

@@ -5,7 +5,7 @@ let index = 0;
 let autoplay;
 
 function updateSlides() {
-    const offset = -(index * (100 / 3 - 0.5)); // Adding gap percentage
+    const offset = -(index * (100 / 3 + 0.5)); // Adding gap percentage
     sliderWrapper.style.transform = `translateX(${offset}%)`;
     slides.forEach(slide => slide.classList.remove('slider-slide-center', 'active', 'slider-slide-adjacent'));
     if (slides[index + 1]) {
@@ -53,7 +53,7 @@ function toggleActiveSlide(event) {
 }
 
 function startAutoplay() {
-    autoplay = setInterval(nextSlide, 2500);
+    autoplay = setInterval(nextSlide, 2500000);
 }
 
 document.addEventListener('click', (event) => {
