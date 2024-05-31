@@ -234,12 +234,12 @@ body{
 
    @keyframes up {
     0%{
-        transform: translate(-36%, 0%);
+        transform: translate(-25%, 112%);
         
     }
 
     100%{
-        transform: translate(-36%, -60%);
+        transform: translate(-25%, -65%);
     }
    }
 
@@ -252,11 +252,11 @@ body{
 
    @keyframes down {
     0%{
-        transform: translate(-36%, -75%);
+        transform: translate(15%, -132%);
     }
 
     100%{
-        transform: translate(-36%, -15%);
+        transform: translate(15%, 45%);
     }
    }
 
@@ -290,15 +290,15 @@ body{
 }
 
 .hero-home-slide-2-ball-1 img{
-    width: 300%;
-    transform: translate(-36%, -60%);
+    width: 100%;
+    transform: translate(-25%, -65%);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
 
 .hero-home-slide-2-ball-2 img{
-    width: 300%;
-    transform: translate(-36%, -15%);
+    width: 100%;
+    transform: translate(15%, 45%);
     grid-column: 3 / 4;
     grid-row: 1 / 3;
 }
@@ -1138,6 +1138,51 @@ footer{
     .hero-wheel img{
         width: 6%;
     }
+    
+   /* Slide- 2 */
+
+   .up{
+    animation: up 1000ms ease ;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+   }
+
+   @keyframes up {
+    0%{
+        transform: translate(-25%, 112%);
+        
+    }
+
+    100%{
+        transform: translate(-25%, -65%);
+    }
+   }
+   .down{
+        animation: down 1000ms ease;
+        animation-fill-mode: forwards;
+        animation-delay: 500ms;
+   }
+
+   @keyframes down {
+    0%{
+        transform: translate(15%, -132%);
+    }
+
+    100%{
+        transform: translate(15%, 50%);
+    }
+   }
+
+.hero-home-slide-2-ball-1 img{
+    width: 100%;
+    transform: translate(-25%, -65%);
+}
+
+.hero-home-slide-2-ball-2 img{
+    width: 100%;
+    transform: translate(15%, 50%);
+}
+
 
     .hero-home-slide-2-text{
         flex-basis: 200%;
@@ -1235,19 +1280,50 @@ footer{
 
     /* Slider Hero */
 
-    .hero-home-slide-2-ball-1 img{
-        width: 300%;
-        transform: translate(-36%, -60%);
-        grid-column: 1 / 2;
-        grid-row: 1 / 3;
+       /* Slide- 2 */
+
+   .up{
+    animation: up 1000ms ease ;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+   }
+
+   @keyframes up {
+    0%{
+        transform: translate(-25%, 112%);
+        
     }
-    
-    .hero-home-slide-2-ball-2 img{
-        width: 300%;
-        transform: translate(-36%, -15%);
-        grid-column: 3 / 4;
-        grid-row: 1 / 3;
+
+    100%{
+        transform: translate(-25%, -85%);
     }
+   }
+   .down{
+        animation: down 1000ms ease;
+        animation-fill-mode: forwards;
+        animation-delay: 500ms;
+   }
+
+   @keyframes down {
+    0%{
+        transform: translate(15%, -132%);
+    }
+
+    100%{
+        transform: translate(15%, 110%);
+    }
+   }
+
+.hero-home-slide-2-ball-1 img{
+    width: 100%;
+    transform: translate(-25%, -85%);
+}
+
+.hero-home-slide-2-ball-2 img{
+    width: 100%;
+    transform: translate(15%, 110%);
+}
+
 
     .hero-text h1{
         font-size: 50px;
@@ -1256,7 +1332,8 @@ footer{
     }
 
     .hero-home-slide-2-text{
-        flex-basis: 250%;
+        width: 115%;
+        margin: 0px auto;
     }
 
     .hero-home-slide-2-text h1{
@@ -1433,20 +1510,106 @@ footer{
         width: 7%;
     }
 
+    /* Slide 2 */
     .hero-home-slide-2-text{
-        flex-basis: 300%;
+        width: 100%;
     }
 
+           /* Slide- 2 */
+
+   .up{
+    animation: up 1000ms ease ;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+   }
+
+   @keyframes up {
+    0%{
+        transform: translate(-25%, 112%);
+        
+    }
+
+    100%{
+        transform: translate(-25%, -105%);
+    }
+   }
+   .down{
+        animation: down 1000ms ease;
+        animation-fill-mode: forwards;
+        animation-delay: 500ms;
+   }
+
+   @keyframes down {
+    0%{
+        transform: translate(15%, -132%);
+    }
+
+    100%{
+        transform: translate(15%, 180%);
+    }
+   }
+
+.hero-home-slide-2-ball-1 img{
+    width: 100%;
+    transform: translate(-25%, -105%);
+}
+
+.hero-home-slide-2-ball-2 img{
+    width: 100%;
+    transform: translate(15%, 180%);
+}
+
+
+
+    
+
+    
+    .hero-home-slide-2-rectangle{
+            width: 280px;
+            height: 160px;
+            position: relative;
+            transform: rotate(-290deg)  translate(-46px, -40px) ;
+    }
+    
+    .rotate-up{
+        animation: rotate-up  2000ms linear ;
+        animation-fill-mode: forwards;
+    }
+    @keyframes rotate-up {
+        0%{
+            opacity: 1;
+            transform: rotate(0deg) translate(300px, 300px );
+        }
+        100%{
+            transform: rotate(-290deg)  translate(-46px, -40px);
+            opacity: 1; 
+        }
+    }
+    .expand{
+        animation: expand 2000ms linear ;
+        animation-fill-mode: forwards;
+    }
+    @keyframes expand{
+        0%{
+            transform: rotate(-290deg) scale(1) ;
+        }
+        100%{
+            transform: rotate(360deg) scale(3) ;
+            opacity: 0;  
+        }
+    }
+    
     .hero-home-slide-2-text h1{
         font-size: 30px;
         line-height: 30px;
         width: 100%;
-
     }
     .hero-bold-text{
         font-size: 30px;
         line-height: 30px;
     }
+
+
     .hero-home-slide-3-text{
         flex-basis: 50%;
     }
@@ -1607,9 +1770,8 @@ footer{
         width: 7%;
     }
 
-
     .hero-home-slide-2-text{
-        flex-basis: 100%;
+        grid-column: 1 / 4 ;
     }
 
     .hero-home-slide-2-text h1{
