@@ -1017,6 +1017,32 @@ body{
     text-transform: uppercase;
     font-weight: 300;
 }
+.usa-service-slider{
+    margin: 100px auto;
+}
+
+.usa-service-slider{
+    margin: 100px auto;
+    overflow: hidden;
+    width: 100%;
+
+}
+.usa-service-slides{
+    overflow: hidden;
+    display: flex;
+}
+.usa-service-slide{
+    flex: 1;
+    transition: all 2500ms;
+    filter: grayscale(100%);
+}
+.usa-service-slide:hover{
+    flex: 2;
+    transform: translateX(50%) scaleX(1.8);
+    z-index: 1;
+    filter: grayscale(0%);
+}
+
 
 
 
@@ -1028,9 +1054,50 @@ footer{
     background-image: url(../Images/Home/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
+.footer-inner{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    padding-top: 5%;
 
+}
+
+.footer-logo-section{
+    width: 15%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;   
+}
+.footer-social-icon a{
+    margin-right:5px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 800;
+}
+.footer-sublinks{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footer-sublinks a{
+    text-decoration: none;
+    color: var(--para-color);
+    font-weight: 400;
+}
 
 
 
