@@ -1013,46 +1013,68 @@ body{
     text-transform: uppercase;
     font-weight: 300;
 }
-.usa-service-slider{
-    margin: 100px auto;
-}
-
-.usa-service-slider{
-    margin: 100px auto;
-    overflow: hidden;
+.usa-service-slider {
     width: 100%;
-
-}
-.usa-service-slides{
     overflow: hidden;
-    display: flex;
+
+    margin: 5% 10%;
 }
-.usa-service-slide{
-    flex: 1;
-    transition: all 2500ms;
-    filter: grayscale(100%);
-    width: 100px;
+.usa-service-slider .grow {
+    height: 400px;
+    width: 20%;
+    margin: 5px 1%;
+    float: left;
     position: relative;
+    transition: width 1.5s, height 0.5s, margin 0.5s, padding 0.5s;
+    text-align: left;
+    overflow: hidden;
+    background-image: url('../Images/Home/Las\ Vagas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
 }
-.usa-service-slide:hover{
-    flex: 2;
-    transform: translateX(50%) scaleX(1.8);
-    z-index: 1;
-    filter: grayscale(0%) opacity(1);
+.usa-service-slider .grow:hover {
+    width: 40%;
 }
-.usa-service-slide-text{
-    position: absolute;
-    top: 25%;
-    z-index: 3;
-    width: 50%;
+.usa-service-slider .usa-slider-text {
     opacity: 0;
-    transition: all 500ms;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s;
+    transition-delay: 0.5s;
+    color: black; /* Ensure text is visible */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
 }
-.usa-service-slide-text:hover{
+.usa-slider-text h2{
+    color: var(--heading-color);
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.usa-service-slider .grow:hover .usa-slider-text {
     opacity: 1;
 }
 
+.usa-service-slider .hidden {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: width 0.5s, margin 0.5s, padding 0.5s;
+}
+.usa-service-slider #slide2{
+    background-image: url(../Images/Home/Maxico.png);
+}
+.usa-service-slider #slide3{
+    background-image: url(../Images/Home/New\ York.png);
+}
+.usa-service-slider #slide4{
+    background-image: url(../Images/Home/Washington.png);
+}
 
 
 
