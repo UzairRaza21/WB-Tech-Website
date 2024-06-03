@@ -805,37 +805,33 @@ body{
     width: 20%;
     height: 250px ;
     border-radius: 20px;
-    background-color: brown;
     box-shadow: 0px 23px 33px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
+    perspective: 800px;
+    overflow: hidden;
 }
 .next-button {
     font-size: 110px;
     font-weight: bolder;
     cursor: pointer;
     border: 0px;
-    background-color: white;
+    background-color: rgb(154, 130, 130);
     transition: all 500ms;
     color: var(--heading-color);
-    position: absolute;
-    z-index: 1;
-    top: 20%;
-    left: 35%;
-}
-.working-process-button-upper{
     width: 100%;
-    height: 50%;
-    background-color: green;
-    position: absolute;
-    border-radius: 20px 20px 0px 0px;
+    height: 100%;
+    transform: rotateX(360deg);
+    border-radius: 20px;
+    animation: flip 2000ms ease forwards infinite;
 }
-.working-process-button-bottom{
-    width: 100%;
-    height: 50%;
-    background-color: blue;
-    position: absolute;
-    border-radius: 0px 0px 20px 20px;
-    bottom: 0;
+@keyframes flip {
+    0%{
+        transform: rotateX(0deg);
+    }
+
+    100%{
+        transform: rotateX(180deg);
+        opacity: 0;
+    }
 }
 
 .working-process-slider .slides {
