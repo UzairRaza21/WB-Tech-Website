@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (index < slides.length - 1) {
                 const nextSlide = slides[index + 1];
                 nextSlide.classList.add('hidden');
-
             }
         });
 

@@ -16,14 +16,14 @@ let slideIndex = 1;
     function currentSlide(n) {
         clearInterval(autoPlayInterval);
         showSlides(slideIndex = n);
-        autoPlayInterval = setInterval(() => plusSlides(1), 3000);
+        autoPlayInterval = setInterval(() => plusSlides(1), 2000);
     }
 
     function plusSlides(n) {
         clearInterval(autoPlayInterval);
         showSlides(slideIndex += n);
         updateNumberSequence(numberIndex += n);
-        autoPlayInterval = setInterval(() => plusSlides(1), 3000);
+        autoPlayInterval = setInterval(() => plusSlides(1), 2000);
     }
 
     function updateNumberSequence(n) {

@@ -52,9 +52,9 @@ function toggleActiveSlide(event) {
     }
 }
 
-function startAutoplay() {
-    autoplay = setInterval(nextSlide, 2500000);
-}
+// function startAutoplay() {
+//     autoplay = setInterval(nextSlide, 2500);
+// }
 
 document.addEventListener('click', (event) => {
     const isClickInside = document.querySelector('.slider-container').contains(event.target);
