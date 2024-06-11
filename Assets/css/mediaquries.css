@@ -723,6 +723,7 @@
 
     .nav-inner{
         padding: 0 25px;
+        margin: 0px 5%;
     }
 
     .hero-text h1{
@@ -1113,6 +1114,50 @@
         max-width: 80%;
         gap: 20px;
     }
+
+
+/* Footer */
+
+footer{
+    background-image: url(../Images/Home/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px 70px 0px 0px;
+
+}
+    
+.footer-inner{
+    justify-content: space-around;
+    height: auto;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.footer-logo-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;  
+}
+
+
+.footer-section{
+    gap: 10px;
+    margin-top: 0px;
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+
 
 
 
