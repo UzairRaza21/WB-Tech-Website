@@ -1057,7 +1057,7 @@ body{
     font-weight: 300;
 }
 .usa-service-slider {
-    max-width: 80%;
+    max-width: 100%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -1066,11 +1066,11 @@ body{
 }
 
 .usa-service-slider .grow {
-    height: 300px;
-    width: 15%; /* Default width */
-    margin: 5px;
+    height: 400px;
+    width: 20%; /* Default width */
+    margin: 5px 10px;
     position: relative;
-    transition: width 1.5s, height 0.5s, margin 0.5s, padding 0.5s, filter 0.5s;
+    transition: width 1s, height 0.5s, margin 0.5s, padding 0.5s, filter 0.5s;
     text-align: left;
     overflow: hidden;
     border-radius: 50px;
@@ -1083,6 +1083,15 @@ body{
 .usa-service-slider .grow:hover {
     width: 30%; /* Expanded width on hover */
     filter: grayscale(0%);
+    margin: 0;
+    padding: 0;
+}
+.usa-service-slider .hidden {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: width 0.5s, margin 0.5s, padding 0.5s;
 }
 
 .usa-service-slider .usa-slider-text {
@@ -1096,20 +1105,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
+    padding: 50px;
 }
-
+.usa-slider-text h2{
+    color: var(--heading-color);
+    font-size: 28px;
+}
 .usa-service-slider .grow:hover .usa-slider-text {
     opacity: 1;
 }
 
-.usa-service-slider .hidden {
-    width: 0;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    transition: width 0.5s, margin 0.5s, padding 0.5s;
-}
+
 
 @media screen and (max-width: 768px) {
     .usa-service-slider .grow {
@@ -1123,17 +1129,15 @@ body{
 
 @media screen and (max-width: 480px) {
     .usa-service-slider .grow {
-        width: 80%; /* Adjusted width for even smaller screens */
+        width: 75%; /* Adjusted width for even smaller screens */
         margin: 5px auto;
+        height: 350px;
     }
 
     .usa-service-slider .grow:hover {
-    width: 100%; /* Expanded width on hover */
+        width: 100%; /* Expanded width on hover */
 }
 }
-
-
-
 
 
 /* Footer */

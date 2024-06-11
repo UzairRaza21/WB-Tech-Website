@@ -1075,6 +1075,10 @@
     height: 600px;
     position: relative;
     }
+    .testimonial-slider .slider-container {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
     .testimonial-slider  .slider-wrapper {
         display: flex;
         gap: 10px; /* Space between slides */
@@ -1092,8 +1096,23 @@
     .testimonial-slider  .nav-button-right {
         right: -8%;
     }
+    .testimonial-slider-main {
+        height: 800px;
+    }
 
+    /* USA Services */
 
+    .usa-service-heading h1 {
+        font-size: var(--main-font-size-425px);
+    }
+    .usa-service-heading {
+        padding: 0 0px 0 60px;
+    }
+
+    .usa-service-slider {
+        max-width: 80%;
+        gap: 20px;
+    }
 
 
 
