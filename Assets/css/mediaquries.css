@@ -11,11 +11,11 @@
     --para-font-size-1200px: 24px;
     --main-font-size-1024px: 32px;
     --para-font-size-1024px: 16px;
-    --main-font-size-768px: 26px;
+    --main-font-size-768px: 30px;
     --para-font-size-768px: 16px;
-    --main-font-size-425px: 24px;
+    --main-font-size-425px: 30px;
     --para-font-size-425px: 14px;
-    --main-font-size-375px: 20px;
+    --main-font-size-375px: 28px;
     --para-font-size-375px: 14px;
 }
 
@@ -927,7 +927,6 @@
     justify-self: end;
     display: none;
 }
-
 .about-company-heading{
     display: flex;
     align-items: center;
@@ -935,7 +934,6 @@
 .about-company-heading h1{
     font-size: var(--main-font-size-425px);
 }
-
 .about-company-text p{
     width: 100%;
     padding: 10px 0px;
@@ -943,9 +941,69 @@
     text-align: justify;
 }
 
+/* Our Services */
 
+.our-services-heading h1 {
+    transform: translateX(-22.5%);
+    font-size: var(--main-font-size-425px);
+}
+.our-services-heading {
+    top: -10.5%;
+}
+.our-services-text {
+    padding: 100px 50px 100px 60px;
+}
+#detail-title {
+    font-size: var(--main-font-size-425px);
+}
+#detail-description {
+    font-size: var(--para-font-size-425px);
+}
 
+.myPanels{
+    perspective: 3000px;
+  }
+  #carousel{
+    transform-style: preserve-3d;
+    perspective: 10000px;
+  }
+  #carousel .pane{
 
+    width: 200px;
+    height: 350px;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .buttons{
+    margin-top: 60px;
+  }
+  
+  /* Custom Changes */
+
+.slider-3D-img img{
+    width: 50%;
+    margin: 15px;
+}
+.slider-3D-text{
+    padding: 30px 10px 10px 10px;
+    gap: 10px;
+}
+.slider-3D-text h1{
+    font-size: 16px;
+    line-height: 18px;
+}
+.slider-3D-text p{
+    font-size: 10px;
+    padding: 0 10px;
+}
+.learn-more{
+    color: var(--heading-color);
+    font-weight: 400;
+}
+.slider-3D-text h2{
+    font-size: 12px;
+}
 
 
 
