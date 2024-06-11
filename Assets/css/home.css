@@ -610,52 +610,6 @@ body{
     font-size: var(--para-font-size-1024px);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Our Services */
 .our-services{
     margin-top: 20%;
@@ -814,76 +768,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Our Process Slider*/
 
 .working-process{
@@ -907,17 +791,13 @@ body{
 
 .working-process-slider {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     gap: 20px;
     margin: 10% auto;
     padding: 0px 100px 0px 100px;
-}
-.working-process-slider {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
 }
+
 .working-process-slider .slider {
     width: 80%;
     height: 250px;
@@ -1011,11 +891,11 @@ body{
     height: 250px;
 }
 .working-process-slider .slide-img img {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    height: 70%;
+    height: 85%;
     right: 0%;
-    top: 15%;
+    top: 8%;
 }
 
 /* Testimonial */
