@@ -1063,7 +1063,35 @@
 .working-process-slider .slide-text p{
     font-size: 14px;
 }
+.testimonial-heading {
+    padding: 0% 0px 0% 60px;
+}
+.testimonial-heading h1 {
+    font-size: var(--main-font-size-425px);
+}
 
+/* Testimonial Slider  CSS Start*/
+    .testimonial-slider{
+    height: 600px;
+    position: relative;
+    }
+    .testimonial-slider  .slider-wrapper {
+        display: flex;
+        gap: 10px; /* Space between slides */
+    }
+    .testimonial-slider  .slider-slide {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .testimonial-slider  .nav-button img{
+        width: 60%;
+    }
+    .testimonial-slider  .nav-button-left {
+        left: -8%;
+    }
+    .testimonial-slider  .nav-button-right {
+        right: -8%;
+    }
 
 
 

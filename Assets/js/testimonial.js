@@ -47,7 +47,7 @@ function toggleActiveSlide(event) {
         if (activeSlide.classList.contains('active')) {
             clearInterval(autoplay);
         } else {
-            autoplay = setInterval(nextSlide, 2500);
+            autoplay = setInterval(nextSlide, 5000);
         }
     }
 }
@@ -83,23 +83,23 @@ document.querySelector('.slider-container').addEventListener('mousedown', (e) =>
         sliderWrapper.style.transition = 'transform 0.5s ease';
         document.removeEventListener('mousemove', onMouseMove);
         document.removeEventListener('mouseup', onMouseUp);
-        autoplay = setInterval(nextSlide, 2500);
+        autoplay = setInterval(nextSlide, 5000);
     }
 
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('mouseup', onMouseUp);
 });
 
-document.querySelector('.nav-button-left').addEventListener('click', () => {
-    clearInterval(autoplay);
-    prevSlide();
-    autoplay = setInterval(nextSlide, 2500);
-});
-
 document.querySelector('.nav-button-right').addEventListener('click', () => {
     clearInterval(autoplay);
+    prevSlide();
+    autoplay = setInterval(nextSlide, 5000);
+});
+
+document.querySelector('.nav-button-left').addEventListener('click', () => {
+    clearInterval(autoplay);
     nextSlide();
-    autoplay = setInterval(nextSlide, 2500);
+    autoplay = setInterval(nextSlide, 5000);
 });
 
 document.querySelectorAll('.slider-slide').forEach(slide => {
