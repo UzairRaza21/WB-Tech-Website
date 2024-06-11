@@ -280,7 +280,13 @@
         }
 
         /* Our Service Section */
-
+        .our-services{
+            margin-top: 20%;
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 10px 10px 260px 200px #DCE5FF ;
+            border-radius: 48px;
+            height: 1200px;
+        }
 .our-services-inner{
     flex-direction: column;
     align-items: center;
@@ -309,11 +315,11 @@
             }
 .our-services-text{
     padding: 100px 50px 100px 80px;
-            }
+    }
 
 
 
-            
+
 .working-process-heading {
     padding: 0px 0px 0px 120px;
         }
@@ -389,6 +395,7 @@
     .open{
         opacity: 1;
         border-radius: 0px 0px 10px 10px;
+        display: block;
     }
     .hero-text{
         flex-basis: 400px;
@@ -690,6 +697,8 @@
         .our-services-heading {
             top: -12.5%;
         }
+
+
         
         .working-process-heading {
             padding: 0px 0px 0px 80px;
@@ -702,8 +711,6 @@
         .testimonial-heading {
             padding: 0% 100px 0% 80px;
         }
-
-
 
         .usa-service-heading {
             padding: 0 80px 0 80px;
