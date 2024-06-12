@@ -8,7 +8,6 @@ html{
 }
 
 body{
-    height: 5000px;
     font-family: var(--manrope-font-family);
     box-sizing: border-box;
 }
@@ -50,7 +49,7 @@ body{
 
 /* Nav Start */
 .nav-main{    
-    padding: 20px 0;
+    padding: 40px 0;
     position: fixed;
     width: 100%;
     z-index: 9;

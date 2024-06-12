@@ -1,0 +1,66 @@
+:root{
+
+    --manrope-font-family: "Manrope";
+    --heading-color: rgba(71, 117, 255, 1);
+    --para-color:  rgba(121, 121, 121, 1);
+    --main-font-size-1920px: 50px;
+    --para-font-size-1920px: 24px;
+    --main-font-size-1440px: 40px;
+    --para-font-size-1440px: 24px;
+    --main-font-size-1200px: 40px;
+    --para-font-size-1200px: 24px;
+    --main-font-size-1024px: 32px;
+    --para-font-size-1024px: 16px;
+    --main-font-size-768px: 30px;
+    --para-font-size-768px: 16px;
+    --main-font-size-425px: 24px;
+    --para-font-size-425px: 14px;
+}
+
+.porfolio-bg{
+    background-image: url(../Images/Portfolio/Portfolio-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.porfolio-heading{
+    display: flex;
+    align-items: center;
+}
+
+.porfolio-heading h2{
+    transform: translateX(-65px);
+    font-size: var(--main-font-size-1920px);
+    font-weight: 500;
+    color: var(--heading-color);
+}
+
+.portfolio-page-carts{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.portfolio-cart-inner{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-card-image img{
+    /* box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.3); */
+    border-radius: 20px;
+}
+
+.porfolio-subheading h2{
+    color: var(--heading-color);
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
