@@ -406,6 +406,7 @@ body{
 .diagonal-1{
     animation: diagonal-1 5s linear infinite;
     animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
 @keyframes diagonal-1 {
     0%{
@@ -419,6 +420,7 @@ body{
 .diagonal-2{
     animation: diagonal-2 5s linear infinite;
     animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
 @keyframes diagonal-2 {
     0%{
@@ -433,6 +435,7 @@ body{
 .diagonal-3{
     animation: diagonal-3 5s linear infinite;
     animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
 @keyframes diagonal-3 {
     0%{
@@ -447,6 +450,7 @@ body{
 .diagonal-4{
     animation: diagonal-4 5s linear infinite;
     animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
 @keyframes diagonal-4 {
     0%{
@@ -461,6 +465,7 @@ body{
 .diagonal-5{
     animation: diagonal-5 5s linear infinite;
     animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
 @keyframes diagonal-5 {
     0%{

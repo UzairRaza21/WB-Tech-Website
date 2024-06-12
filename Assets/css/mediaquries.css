@@ -475,8 +475,8 @@
 
     
     .hero-home-slide-2-rectangle{
-            width: 280px;
-            height: 160px;
+            width: 240px;
+            height: 140px;
             position: relative;
             transform: rotate(-290deg)  translate(-46px, -40px) ;
     }
@@ -534,67 +534,66 @@
 
     /* Slide 3 */
     .slide-3-img-1 img{
-        transform: translate(-139px, -190px);
+        transform: translate(-115px, 49px);
     }
     .slide-3-img-2 img {
-        transform: translate(-59px, -322px);
+        transform: translate(-41px, -78px);
     }
     .slide-3-img-3 img {
-        transform: translate(20px, -456px);
+        transform: translate(34px, -206px);
     }
     .slide-3-img-4 img {
-        transform: translate(97px, -589px);
+        transform: translate(107px, -333px);
     }
     .slide-3-img-5 img {
-        transform: translate(177px, -721px);
+        transform: translate(185px, -462px);
     }
 
 @keyframes diagonal-1 {
     0%{
-        transform: translate(-59px, -76px);
+        transform: translate(-198px, -52px);
     }
     100%{
-        transform: translate(-139px, -190px);
+        transform: translate(-115px, 49px);
     }
 }
 
 @keyframes diagonal-2 {
     0%{
-        transform: translate(21px, -210px);
+        transform: translate(-116px, -198px);
       
     }
     100%{
-        transform: translate(-59px, -322px);
+        transform: translate(-41px, -78px);
     }
 }
 
 
 @keyframes diagonal-3 {
     0%{
-        transform: translate(96px, -343px);
-      
+        transform: translate(-42px, -324px);
     }
     100%{
-        transform: translate(20px, -456px);
+        transform: translate(34px, -206px);
     }
 }
 
 @keyframes diagonal-4 {
     0%{
-        transform: translate(178px, -476px);
+        transform: translate(35px, -453px);
       
     }
     100%{
-        transform: translate(97px, -589px);
+        transform: translate(107px, -333px);
     }
 }
 
 @keyframes diagonal-5 {
     0%{
-        transform: translate(249px, -605px);
+        transform: translate(106px, -579px);
     }
     100%{
-        transform: translate(177px, -721px);
+        transform: translate(185px, -462px);
     }
 }
     /* --------------------------------------------- */
@@ -830,72 +829,70 @@ footer{
 
     /* Slide 3 */
     .slide-3-img-1 img{
-        transform: translate(123px, 358px);
+        transform: translate(-21px, 314px);
         width: 140%;
     }
     .slide-3-img-2 img {
-        transform: translate(81px, 148px);
+        transform: translate(22px, 239px);
         width: 140%;
     }
     .slide-3-img-3 img {
-        transform: translate(40px, -63px);
+        transform: translate(65px, 163px);
         width: 140%;
     }
     .slide-3-img-4 img {
-        transform: translate(-2px, -272px);
+        transform: translate(107px, 88px);
         width: 140%;
     }
     .slide-3-img-5 img {
-        transform: translate(-43px, -483px);
+        transform: translate(151px, 14px);
         width: 140%;
     }
 
 @keyframes diagonal-1 {
     0%{
-        transform: translate(167px, 443px);
+        transform: translate(-67px, 256px);
     }
     100%{
-        transform: translate(123px, 358px);
+        transform: translate(-21px, 314px);
     }
 }
 
 @keyframes diagonal-2 {
     0%{
-        transform: translate(125px, 218px);
-      
+        transform: translate(-21px, 172px);
     }
     100%{
-        transform: translate(81px, 148px);
+        transform: translate(22px, 239px);
     }
 }
 
 
 @keyframes diagonal-3 {
     0%{
-        transform: translate(81px, 6px);
+        transform: translate(23px, 96px);
       
     }
     100%{
-        transform: translate(40px, -63px);
+        transform: translate(65px, 163px);
     }
 }
 
 @keyframes diagonal-4 {
     0%{
-        transform: translate(40px, -205px);
-      
+        transform: translate(65px, 20px);
     }
     100%{
-        transform: translate(-2px, -272px);
+        transform: translate(107px, 88px);
     }
 }
 
 @keyframes diagonal-5 {
     0%{
-        transform: translate(-1px, -414px);
+        transform: translate(108px, -55px);
     }
     100%{
-        transform: translate(-43px, -483px);
+        transform: translate(151px, 14px);
     }
 }
 
