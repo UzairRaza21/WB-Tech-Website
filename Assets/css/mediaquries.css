@@ -416,6 +416,7 @@
     .hero-text h1{
         font-size: 40px;
         line-height: 40px;
+        margin-top: 150px;
     }
 
     .hero-wheel img{
@@ -425,6 +426,7 @@
     /* Slide 2 */
     .hero-home-slide-2-text{
         width: 100%;
+        margin-top: 120px;
     }
 
            /* Slide- 2 */
@@ -520,6 +522,7 @@
 
     .hero-home-slide-3-text{
         flex-basis: 50%;
+        margin-top: 150px;
     }
     .hero-home-slide-3-text h1{
         font-size: 30px;
