@@ -70,3 +70,38 @@
     text-align: center;
     margin: 0 auto;
 }
+
+
+
+/* Website Page */
+.portfolio-linkpage-header-bg{
+    background-color:  rgba(220, 229, 255, 1);
+    background-size: 100% 60%;
+    height: 80vh; 
+}
+.portfolio-linkpage-bg{
+    background-color: white;
+    height: 60vh;
+    border-radius: 40px;
+    box-shadow: 5px 5px 2px 0px rgba(28, 40, 75, 0.081);
+    margin-top: 20px;
+}
+
+.portfolio-linkpage-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.portfolio-linkpage-heading h2{
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    font-weight: 500;
+}
+
+.websites-cart-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -50px auto 100px auto;
+}
