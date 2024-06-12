@@ -17,6 +17,12 @@
     --para-font-size-425px: 14px;
 }
 
+.portfolio-header-bg{
+    background-color:  rgba(220, 229, 255, 1);
+    background-size: 100% 60%;
+    height: 100vh;
+}
+
 .porfolio-bg{
     background-image: url(../Images/Portfolio/Portfolio-bg.png);
     background-size: cover;
@@ -46,7 +52,7 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin: 100px auto;
+    margin: -150px auto 100px auto;
 }
 
 .portfolio-cart-inner{

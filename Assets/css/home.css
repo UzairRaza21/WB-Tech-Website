@@ -36,7 +36,9 @@ body{
     margin: 0 auto;
     overflow: hidden;
 }
-
+a{
+    text-decoration: none;
+}
 .header-bg{
     background-image: url(../Images/Home/hero-bg.png);
     background-size: cover;
