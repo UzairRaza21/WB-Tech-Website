@@ -434,6 +434,38 @@
 .websites-developement-heading span{
     font-size: 24px !important;
 }
+.web-dev-section-1-text h2{
+    font-size: var(--main-font-size-1024px) !important;
+}
+.web-dev-section-1-text p{
+    font-size: var(--para-font-size-1024px) !important;
+}
+.web-dev-section-2-heading h2{
+    font-size: var(--main-font-size-1024px) !important;
+}
+
+.web-dev-section-2-cart{
+    flex-direction: column;
+    gap: 100px !important;
+    padding: 50px;
+    margin: 60px auto !important;
+}
+
+.web-dev-section-2-blue{    
+    margin: 60px auto !important;
+    width: 90% !important;
+}
+.web-dev-section-2-text{
+    margin: 60px auto !important;
+    width: 90%;
+}
+.web-dev-section-2-text h2{
+    font-size: var(--main-font-size-1024px) !important;
+}
+
+.web-dev-section-2-text p{
+    font-size: var(--para-font-size-1024px) !important;
+}
 }
 @media screen and (max-width: 768px) {
     .mobile-nav-main{
@@ -848,6 +880,59 @@ footer{
 .owl-card-slider h2 {
     font-size: var(--main-font-size-768px) !important;
     margin-left: 45px !important;
+}
+
+
+
+/* Web Development Page */
+
+.web-dev-section-1 {
+    margin: 0px 20px 50px 20px !important;
+}
+.web-dev-section-1-inner{
+    flex-direction: column;
+}
+.web-dev-section-1-text{
+    max-width: 100% !important;
+}
+.web-dev-section-1-img{
+    max-width: 100% !important;
+}
+.web-dev-section-1-text h2{
+    font-size: var(--main-font-size-768px) !important;
+}
+.web-dev-section-1-text p{
+    font-size: var(--para-font-size-768px) !important;
+}
+
+.web-dev-section-2{
+    border-radius: 50px 50px 0 0 !important;
+}
+.web-dev-section-2-heading h2{
+    font-size: var(--main-font-size-768px) !important;
+}
+
+.web-dev-section-2-cart{
+    gap: 100px !important;
+    padding: 50px;
+    margin: 60px auto !important;
+}
+
+.web-dev-section-2-blue{    
+    margin: 60px auto !important;
+    width: 90% !important;
+    height: 150px !important;
+}
+.web-dev-section-2-text{
+    margin: 60px auto !important;
+    width: 90%;
+}
+.web-dev-section-2-text h2{
+    font-size: var(--main-font-size-768px) !important;
+}
+
+.web-dev-section-2-text p{
+    font-size: var(--para-font-size-768px) !important;
 }
 
 }
