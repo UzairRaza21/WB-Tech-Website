@@ -44,6 +44,7 @@
 .porfolio-heading{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .porfolio-heading h2{
@@ -67,11 +68,12 @@
 .portfolio-card-image img{
     /* box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.3); */
     border-radius: 20px;
+    width: 100%;
 }
 
 .porfolio-subheading h2{
     color: var(--heading-color);
-    width: 60%;
+    max-width: 75%;
     text-align: center;
     margin: 0 auto;
 }

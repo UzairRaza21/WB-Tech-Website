@@ -387,9 +387,42 @@
 }
 
 
+/* Portfolio Page Start */
 
+.porfolio-bg {
+    height: 60vh;
 }
 
+.porfolio-heading h2 {
+    font-size: var(--main-font-size-1024px);
+}
+.portfolio-page-carts {
+    flex-direction: column;
+}
+.portfolio-cart-inner {
+    flex-direction: column-reverse !important;
+    gap: 40px;
+}
+.portfolio-card-image img{
+    height: 60vh;
+}
+.porfolio-subheading h2 {
+    font-size: var(--main-font-size-1024px);
+}
+
+.portfolio-linkpage-heading h2 {
+    font-size: var(--main-font-size-1024px) !important;
+}
+
+/* Grahpic Designing Page */
+.carousel-wrap {
+    width: 78% !important;
+}
+.owl-card-slider h2 {
+    font-size: var(--main-font-size-1024px) !important;
+    /* margin-left: 30px !important; */
+}
+}
 @media screen and (max-width: 768px) {
     .mobile-nav-main{
         display: block;
@@ -771,6 +804,38 @@ footer{
 .footer-bottom p{
     padding: 8px 0;
     font-size: 14px;
+}
+
+
+/* Portfolio Page Start */
+
+.porfolio-bg {
+    height: 60vh !important;
+}
+
+.porfolio-heading h2 {
+    font-size: 45px !important;
+}
+
+.portfolio-cart-inner {
+    flex-direction: column-reverse !important;
+    gap: 40px;
+}
+.portfolio-card-image img{
+    height: 60vh;
+}
+.porfolio-subheading h2 {
+    font-size: var(--main-font-size-768px) !important;
+}
+
+.portfolio-page-carts {
+    margin: -250px auto 100px auto !important;
+}
+
+/* Graphic Designing Page */
+.owl-card-slider h2 {
+    font-size: var(--main-font-size-768px) !important;
+    margin-left: 45px !important;
 }
 
 }
@@ -1211,16 +1276,37 @@ footer{
 }
 
 
+/* Portfolio Page Start */
 
+.porfolio-bg {
+    height: 60vh !important;
+}
 
+.porfolio-heading h2 {
+    transform: translateX(-55px) !important;
+    font-size: 40px !important;
+}
 
+.portfolio-cart-inner {
+    flex-direction: column-reverse !important;
+    gap: 40px;
+}
+.portfolio-card-image img{
+    height: 60vh;
+}
+.porfolio-subheading h2 {
+    font-size: var(--main-font-size-425px) !important;
+}
 
+.portfolio-page-carts {
+    margin: -250px auto 100px auto !important;
+}
 
-
-
-
-
-
+/* Graphic Deisgning Page Start */
+.owl-card-slider h2 {
+    font-size: var(--main-font-size-425px) !important;
+    margin-left: 30px !important;
+}
 
 
     
@@ -1292,6 +1378,33 @@ footer{
 
 /* About Section End */
 
+
+/* Portfolio Page Start */
+
+.porfolio-bg {
+    height: 60vh !important;
+}
+
+.porfolio-heading h2 {
+    transform: translateX(-50px) !important;
+    font-size: 35px !important;
+}
+
+.portfolio-cart-inner {
+    flex-direction: column-reverse !important;
+    gap: 40px;
+}
+.portfolio-card-image img{
+    height: 60vh;
+}
+.porfolio-subheading h2 {
+    font-size: var(--main-font-size-375px) !important;
+}
+
+.portfolio-page-carts {
+    margin: -250px auto 100px auto !important;
+}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -1316,5 +1429,30 @@ footer{
 }
 
     /* About Section End*/
+
+    .porfolio-bg {
+        height: 50vh !important;
+    }
+    
+    .porfolio-heading h2 {
+        transform: translateX(-45px) !important;
+        font-size: 32px !important;
+        max-width: 80% !important;
+    }
+    
+    .portfolio-cart-inner {
+        flex-direction: column-reverse !important;
+        gap: 30px;
+    }
+    .portfolio-card-image img{
+        height: 60vh;
+    }
+    .porfolio-subheading h2 {
+        font-size: var(--main-font-size-375px) !important;
+    }
+    
+    .portfolio-page-carts {
+        margin: -300px auto 100px auto !important;
+    }
 
 }
