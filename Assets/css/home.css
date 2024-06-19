@@ -10,6 +10,10 @@ html{
 body{
     font-family: var(--manrope-font-family);
     box-sizing: border-box;
+    
+}
+
+.home-body{
     height: 1800px;
 }
 

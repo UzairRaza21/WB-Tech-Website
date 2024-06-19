@@ -422,6 +422,12 @@
     font-size: var(--main-font-size-1024px) !important;
     /* margin-left: 30px !important; */
 }
+
+/* Services Page */
+
+.services-page-carts {
+    margin: -285px auto 0px auto !important;
+}
 }
 @media screen and (max-width: 768px) {
     .mobile-nav-main{
@@ -1308,7 +1314,11 @@ footer{
     margin-left: 30px !important;
 }
 
+/* Services Page */
 
+.services-page-carts {
+    margin: -325px auto 0px auto !important;
+}
     
 }
 

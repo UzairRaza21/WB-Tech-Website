@@ -132,11 +132,13 @@
 
 }
 .website-cart img:hover{
-    transform: translateY(-73%);
+    transform: translateY(-61%);
 }
 /* .website-cart:hover{
     transform: scale(1.1);
 } */
+
+
 /* Social Media Page */
 
 .search-bar-main{
