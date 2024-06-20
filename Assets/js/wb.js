@@ -127,5 +127,54 @@ window.addEventListener('scroll', function() {
 
 
 
+// About Section Text Slider
+const textItems = Array.from(document.querySelectorAll('.text-item')).map(item => item.innerHTML);
+    let currentIndex = 0;
+    let scrollDirection = 'down';
+    const textDisplay = document.getElementById('textDisplay');
+    const sliderContainer = document.querySelector('.slider-container');
 
+    function updateText(newText) {
+        textDisplay.classList.remove('show');
+        if (scrollDirection === 'up') {
+            textDisplay.classList.add('hide-up');
+        } else {
+            textDisplay.classList.add('hide-down');
+        }
 
+        setTimeout(() => {
+            textDisplay.innerHTML = newText;
+            textDisplay.classList.remove('hide-up', 'hide-down');
+            textDisplay.classList.add('show');
+        }, 500); // Matches the CSS transition duration
+    }
+
+    function handleScroll(event) {
+        if (event.deltaY < 0) {
+            scrollDirection = 'up';
+            currentIndex = (currentIndex - 1 + textItems.length) % textItems.length;
+        } else {
+            scrollDirection = 'down';
+            currentIndex = (currentIndex + 1) % textItems.length;
+        }
+        updateText(textItems[currentIndex]);
+        event.preventDefault();
+    }
+
+    function handleClick() {
+        scrollDirection = 'down';
+        currentIndex = (currentIndex + 1) % textItems.length;
+        updateText(textItems[currentIndex]);
+    }
+
+    sliderContainer.addEventListener('mouseenter', () => {
+        sliderContainer.addEventListener('wheel', handleScroll, { passive: false });
+    });
+
+    sliderContainer.addEventListener('mouseleave', () => {
+        sliderContainer.removeEventListener('wheel', handleScroll);
+    });
+
+    sliderContainer.addEventListener('click', handleClick);
+
+    updateText(textItems[currentIndex]);
