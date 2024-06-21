@@ -5,7 +5,7 @@ $(document).ready(function(){
     var tz = Math.round((panelSize / 2) / Math.tan(((Math.PI * 2) / numberOfPanels) / 2)); //traslateZ
     var rY = (360 / numberOfPanels); //rotateY
     var deg = 0;
-    var color = ["#008000a8", "#ffff00a8", "#ffa500a8", "#000000a8", "#00ffffa8"];
+    var color = ["#ffff", "#ffff", "#ffff", "#ffff", "#ffff"];
   
     $('.pane').each(function(i, obj) {
         var rand = color[Math.floor(Math.random() * color.length)];

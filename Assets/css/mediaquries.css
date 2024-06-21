@@ -114,28 +114,34 @@
 }
 
 /* Our Services */
-
+.our-services{
+    margin-top: 20%;
+    border-radius: 45px;
+    height: 350px;
+}
+.our-services-heading img{
+    width: 22%;
+}
 .our-services-heading{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: -18%;
+    top: -17%;
 }
 .our-services-heading h1{
     transform: translateX(-22.5%);
-    color: var(--heading-color);
     font-size: var(--main-font-size-1440px);
-    text-transform: uppercase;
-    font-weight: 300;
 }
 .our-services-text{
-    padding: 100px 50px 100px 100px;
+    padding: 90px 0px 0px 90px;
 }
 
-.our-services-text p{
-    width: 80%;
-    padding: 10px 25px;
-    color: var(--para-color);
+#detail-description{
+    width: 50%;
+    padding: 10px 30px;
+    font-size: var(--para-font-size-1440px);
+}
+
+#detail-title{
+    padding: 10px 30px;
+    font-size: 28px;
 }
 
 }
@@ -277,13 +283,13 @@
     font-size: 16px;
 }
         /* Our Service Section */
-        .our-services{
-            margin-top: 20%;
-            background-color: rgba(255, 255, 255, 1);
-            box-shadow: 10px 10px 260px 200px #DCE5FF ;
-            border-radius: 48px;
-            height: 1200px;
-        }
+.our-services{
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 260px 200px #DCE5FF ;
+    border-radius: 48px;
+    height: 1200px;
+}
 .our-services-inner{
     flex-direction: column;
     align-items: center;
@@ -308,13 +314,13 @@
     text-align: center;
         }
 .our-services-heading {
-    top: -14%;
+    top: -10%;
             }
 .our-services-text{
     padding: 100px 50px 100px 80px;
     }
 
-
+/* Working Process Start  */
 
 
 .working-process-heading {
@@ -780,32 +786,37 @@
 /* Our Services */
 
 
-        .our-services {
-            padding: 0 0%;
-        }
+.our-services {
+    padding: 0 0%;
+}
 
-        .our-services-heading {
-            top: -12.5%;
-        }
+.our-services-heading {
+    top: -9%;
+}
 
+.working-process-heading {
+    padding: 0px 0px 0px 80px;
+}
 
+.working-process-slider {
+    padding: 0px 80px 0px 80px;
+}
         
-        .working-process-heading {
-            padding: 0px 0px 0px 80px;
-        }
+.testimonial-heading {
+    padding: 0% 100px 0% 80px;
+}
 
-        .working-process-slider {
-            padding: 0px 80px 0px 80px;
-        }
-        
-        .testimonial-heading {
-            padding: 0% 100px 0% 80px;
-        }
+.usa-service-heading {
+    padding: 0 80px 0 80px;
+}
 
-        .usa-service-heading {
-            padding: 0 80px 0 80px;
-        }
+#detail-description{
+    font-size: var(--para-font-size-768px);
+}
 
+#detail-title{
+    font-size: 24px;
+}
 
         
 footer{
@@ -1164,19 +1175,26 @@ footer{
     font-size: 14px;
 }
 /* Our Services */
-
+.our-services{
+    margin-top: 15%;
+    border-radius: 40px;
+    height: 750px;
+}
 .our-services-heading h1 {
     transform: translateX(-22.5%);
     font-size: var(--main-font-size-425px);
 }
 .our-services-heading {
-    top: -10.5%;
+    top: -8%;
+}
+.our-services-heading img{
+    width: 25%;
 }
 .our-services-text {
-    padding: 100px 50px 100px 60px;
+    padding: 80px 50px 80px 60px;
 }
 #detail-title {
-    font-size: var(--main-font-size-425px);
+    font-size: 24px;
 }
 #detail-description {
     font-size: var(--para-font-size-425px);

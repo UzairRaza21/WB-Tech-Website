@@ -662,11 +662,14 @@ a{
 
 /* Our Services */
 .our-services{
-    margin-top: 20%;
+    margin-top: 15%;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 10px 10px 260px 200px #DCE5FF ;
     border-radius: 48px;
     height: 400px;
+}
+.our-services-heading img{
+    width: 22%;
 }
 .our-services-inner{
     display: flex;
@@ -693,7 +696,7 @@ a{
     font-weight: 300;
 }
 .our-services-text{
-    padding: 100px 50px 100px 100px;
+    padding: 120px 0px 0px 80px;
 }
 
 #detail-description{
