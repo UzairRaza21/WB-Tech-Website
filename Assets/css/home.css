@@ -18,23 +18,22 @@ body{
 }
 
 :root{
-
-        --manrope-font-family: "Manrope";
-        --heading-color: rgba(71, 117, 255, 1);
-        --para-color:  rgba(121, 121, 121, 1);
-        --main-font-size-1920px: 50px;
-        --para-font-size-1920px: 24px;
-        --main-font-size-1440px: 40px;
-        --para-font-size-1440px: 24px;
-        --main-font-size-1200px: 40px;
-        --para-font-size-1200px: 24px;
-        --main-font-size-1024px: 32px;
-        --para-font-size-1024px: 16px;
-        --main-font-size-768px: 30px;
-        --para-font-size-768px: 16px;
-        --main-font-size-425px: 24px;
-        --para-font-size-425px: 14px;
-    }
+    --manrope-font-family: "Manrope";
+    --heading-color: rgba(71, 117, 255, 1);
+    --para-color:  rgba(121, 121, 121, 1);
+    --main-font-size-1920px: 45px;
+    --para-font-size-1920px: 16px;
+    --main-font-size-1440px: 40px;
+    --para-font-size-1440px: 16px;
+    --main-font-size-1200px: 36px;
+    --para-font-size-1200px: 16px;
+    --main-font-size-1024px: 32px;
+    --para-font-size-1024px: 16px;
+    --main-font-size-768px: 30px;
+    --para-font-size-768px: 16px;
+    --main-font-size-425px: 24px;
+    --para-font-size-425px: 14px;
+}
 
 .wb-tech-container{
     max-width: 1320px;
@@ -561,7 +560,6 @@ a{
 .after-slider-section{
     display: none;
 }
-
 .about-company{
     margin-top: -5%;
     background-color: rgba(255, 255, 255, 1);
@@ -570,9 +568,10 @@ a{
 }
 .about-company-inner{
     display: flex;
+    height: 400px;
 }
 .about-company-text{
-    padding: 80px 50px 80px 100px;
+    padding: 80px 0px 0px 100px;
     flex-basis: 50%;
 }
 .about-company-gif{
@@ -600,9 +599,24 @@ a{
 }
 
 .about-company-text p{
-    width: 80%;
     color: var(--para-color);
-    font-size: var(--para-font-size-1024px);
+    font-size: var(--para-font-size-1920px);
+    margin-top: 15px;
+}
+
+.about-button{
+    color: var(--heading-color);
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.about-btn-bg{
+    padding: 6px 4px 1px 4px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .home-text-slider .slider-container {
@@ -624,8 +638,6 @@ a{
 .home-text-slider .text-display.hide-up {
     opacity: 0;
     transform: translateY(-20px);
-    width: 80%;
-    padding: 10px 25px;
     color: var(--para-color);
     font-size: var(--para-font-size-1024px);
 }
@@ -634,7 +646,6 @@ a{
     opacity: 0;
     transform: translateY(20px);
     width: 80%;
-    padding: 10px 25px;
     color: var(--para-color);
     font-size: var(--para-font-size-1024px);
 }
@@ -642,8 +653,6 @@ a{
 .home-text-slider .text-display.show {
     opacity: 1;
     transform: translateY(0);
-    width: 80%;
-    padding: 10px 25px;
     color: var(--para-color);
     font-size: var(--para-font-size-1024px);
 }

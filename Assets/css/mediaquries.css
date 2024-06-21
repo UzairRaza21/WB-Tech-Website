@@ -1,22 +1,19 @@
 :root{
-
     --manrope-font-family: "Manrope";
     --heading-color: rgba(71, 117, 255, 1);
     --para-color:  rgba(121, 121, 121, 1);
-    --main-font-size-1920px: 50px;
-    --para-font-size-1920px: 24px;
+    --main-font-size-1920px: 45px;
+    --para-font-size-1920px: 16px;
     --main-font-size-1440px: 40px;
-    --para-font-size-1440px: 24px;
-    --main-font-size-1200px: 40px;
-    --para-font-size-1200px: 24px;
+    --para-font-size-1440px: 16px;
+    --main-font-size-1200px: 36px;
+    --para-font-size-1200px: 16px;
     --main-font-size-1024px: 32px;
     --para-font-size-1024px: 16px;
     --main-font-size-768px: 30px;
     --para-font-size-768px: 16px;
-    --main-font-size-425px: 30px;
+    --main-font-size-425px: 24px;
     --para-font-size-425px: 14px;
-    --main-font-size-375px: 28px;
-    --para-font-size-375px: 14px;
 }
 
 @media screen and (max-width: 1441px) {
