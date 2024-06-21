@@ -9,11 +9,11 @@
     --main-font-size-1200px: 36px;
     --para-font-size-1200px: 16px;
     --main-font-size-1024px: 32px;
-    --para-font-size-1024px: 16px;
+    --para-font-size-1024px: 14px;
     --main-font-size-768px: 30px;
-    --para-font-size-768px: 16px;
-    --main-font-size-425px: 24px;
-    --para-font-size-425px: 14px;
+    --para-font-size-768px: 14px;
+    --main-font-size-425px: 26px;
+    --para-font-size-425px: 12px;
 }
 
 @media screen and (max-width: 1441px) {
@@ -100,28 +100,18 @@
 .about-company{
     margin: 10% 5% 5% 5%;
 }
-
 .about-company-text{
-    padding: 100px auto 100px 100px;
+    padding: 80px 0px 0px 80px;
 }
-
 .about-company-gif img{
  width: 100%;
  border-radius: 0px 30px 30px 0px;
  height: 100%;
 }
-
 .about-company-heading h1{
     transform: translateX(-15.5%);
     font-size: var(--main-font-size-1440px);
 }
-
-.about-company-text p{
-    width: 80%;
-    padding: 10px auto;
-    color: var(--para-color);
-}
-
 
 /* Our Services */
 
@@ -153,18 +143,18 @@
 
 @media screen and (max-width: 1024px) {
 
-    .hero-text{
+.hero-text{
         flex-basis: 500px;
         transform: translate( 0%, 0%);
     }
-    .nav-inner{
+.nav-inner{
         justify-content: space-around;
         margin: 0px 5%;
     }
-    .hero-text h1{
-        font-size: 40px;
-        line-height: 40px;
-        width: 80%;
+.hero-text h1{
+    font-size: 40px;
+    line-height: 40px;
+    width: 80%;
 }
     /* Slider Hero */
 
@@ -235,10 +225,9 @@
     }
 }
 
-
 .hero-home-slide-2-text{
-        width: 115%;
-        margin: 0px auto;
+    width: 115%;
+    margin: 0px auto;
 }
 
 .hero-home-slide-2-text h1{
@@ -250,46 +239,43 @@
     font-size: 40px;
     line-height: 40px;
 }
-    .hero-home-slide-3-text{
-        flex-basis: 35%;
-    }
-    .hero-home-slide-3-text h1{
-        font-size: 40px;
-        line-height: 40px;
-        margin: 10% auto;
-        width: 100%;
-    }
-
+.hero-home-slide-3-text{
+    flex-basis: 35%;
+}
+.hero-home-slide-3-text h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 10% auto;
+    width: 100%;
+}
 
         /* About Company Section */
 
-
-        .about-company-inner{
-            display: flex;
-        }
-        .about-company-text{
-            padding: 40px 0px 20px 80px;
-            flex-basis: 50%;
-        }
-        .about-company-gif{
-            flex-basis: 50%;
-            justify-self: end;
-        }
-        .about-company-gif img{
-         width: 100%;
-         height: 100%;
-        }
-    
-        .about-company-heading h1{
-            transform: translateX(-15.5%);
-            font-size: var(--main-font-size-1024px);
-        }
-
-        .about-company-text p{
-            width: 100%;
-            padding: 10px 10px;
-        }
-
+.about-company-heading h1{
+    transform: translateX(-15.5%);
+    font-size: var(--main-font-size-1024px);
+}
+.about-company-text p{
+    width: 100%;
+    font-size: var(--para-font-size-1024px);
+}
+.about-company-text{
+    padding: 65px 0px 0px 65px;
+    flex-basis: 50%;
+}
+.about-company-gif{
+    flex-basis: 50%;
+    justify-self: end;
+}
+.about-company-heading img{
+    width: 18%;
+}
+.home-text-slider .text-display {
+    font-size: var(--para-font-size-1024px);
+}
+.about-button{
+    font-size: 16px;
+}
         /* Our Service Section */
         .our-services{
             margin-top: 20%;
@@ -765,39 +751,33 @@
 
 
     /* About Section */
+.about-company-inner{
+    height: 350px;
+}
+.about-company-heading h1{
+    transform: translateX(-15.5%);
+    font-size: var(--main-font-size-768px);
+}
+.about-company-text{
+    padding: 50px 0px 0px 50px;
+    flex-basis: 50%;
+}
+.about-company-gif{
+    flex-basis: 50%;
+    justify-self: end;
+}
+.about-company-heading img{
+    width: 20%;
+}
+.about-company {
+    margin: 10% 3% 5% 3%;
+}
+.about-company-text p{
+    padding: 0px 0px 0px 5px;
+    font-size: var(--para-font-size-768px) ;
+}
 
-         /* About Company Section */
-        .about-company {
-            margin: 10% 3% 5% 3%;
-        }
-
-         .about-company-inner{
-            display: flex;
-        }
-        .about-company-text{
-            padding: 40px 0px 40px 40px;
-            flex-basis: 50%;
-        }
-        .about-company-gif{
-            flex-basis: 50%;
-            justify-self: end;
-        }
-        .about-company-gif img{
-         width: 100%;
-         height: 100%;
-        }
-    
-        .about-company-heading h1{
-            transform: translateX(-15.5%);
-            font-size: var(--main-font-size-768px);
-        }
-
-        .about-company-text p{
-            width: 100%;
-            padding: 10px 10px;
-            font-size: var(--para-font-size-768px) ;
-        }
-
+/* Our Services */
 
 
         .our-services {
@@ -1146,14 +1126,15 @@ footer{
 
     /* About Section */
 
-    
-
 .about-company-inner{
     flex-direction: column;
 }
 .about-company-text{
     padding: 50px 50px 50px 50px;
     flex-basis: 100%;
+}
+.about-company-heading img{
+    width: 25%;
 }
 .about-company-gif{
     flex-basis: 100%;
@@ -1173,7 +1154,15 @@ footer{
     font-size: var(--para-font-size-425px);
     text-align: justify;
 }
-
+.home-text-slider .text-display {
+    font-size: var(--para-font-size-425px);
+}
+.about-btn-bg{
+    padding: 6px 3px 1px 3px;
+}
+.about-button{
+    font-size: 14px;
+}
 /* Our Services */
 
 .our-services-heading h1 {

@@ -9,11 +9,11 @@
     --main-font-size-1200px: 36px;
     --para-font-size-1200px: 16px;
     --main-font-size-1024px: 32px;
-    --para-font-size-1024px: 16px;
+    --para-font-size-1024px: 14px;
     --main-font-size-768px: 30px;
-    --para-font-size-768px: 16px;
-    --main-font-size-425px: 24px;
-    --para-font-size-425px: 14px;
+    --para-font-size-768px: 14px;
+    --main-font-size-425px: 26px;
+    --para-font-size-425px: 12px;
 }
 
 .portfolio-header-bg{
