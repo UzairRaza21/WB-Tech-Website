@@ -175,7 +175,7 @@ a{
 /* Slide-1 */
 
 .hero-home-main{
-    width: 1400px;
+    max-width: 1400px;
     padding: 0 40px;
     margin: 0 auto;
 }
@@ -183,12 +183,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+}
 
-}
-.hero-text{
-    flex-basis: 1000px;
-}
 .hero-text h1{
     font-family: var(--manrope-font-family);
     color: var(--heading-color);
@@ -197,12 +193,11 @@ a{
     line-height: 83.81px;
     text-align: center;
     margin: 10% auto;
-    width: 70%;
+    width: 60%;
 }
 
 .hero-wheel{
-    margin-top: 10px;
-    
+    margin-top: 10px;  
 }
 .hero-wheel img{
     animation: rotate 5s linear infinite;
@@ -284,17 +279,16 @@ a{
 }
 .hero-home-slide-2-text h1{
     color: rgba(133, 163, 254, 1);
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 400;
-    line-height: 65px;
-    width: 100%;
-    margin: 15% auto;
-}
+    line-height: 60px;
+    margin: 20% auto 15% auto;
+} 
 .hero-bold-text{
     color: var(--heading-color);
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 600;
-    line-height: 65px;
+    line-height: 60px;
 }
 
 .hero-home-slide-2-ball-1 img{
@@ -326,8 +320,7 @@ a{
         opacity: 0;
         position: relative;
         top: -135%;
-        transform: rotate(-290deg)  translate(-46px, 0px) ;
-        
+        transform: rotate(-290deg)  translate(-46px, 0px) ;      
 }
 
 .rotate-up{
@@ -347,17 +340,14 @@ a{
 .expand{
     animation: expand 2000ms linear ;
     animation-fill-mode: forwards;
-
 }
 @keyframes expand{
     0%{
         transform: rotate(-290deg) scale(1) ;
-      
     }
     100%{
         transform: rotate(360deg) scale(5) ;
         opacity: 0;
-     
     }
 }
 
