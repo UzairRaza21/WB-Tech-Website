@@ -176,7 +176,9 @@
 
 
 @media screen and (max-width: 1024px) {
-
+.nav-main {
+    padding: 20px 0;
+    }
 .hero-text{
         flex-basis: 500px;
         transform: translate( 0%, 0%);
@@ -189,12 +191,13 @@
     font-size: 40px;
     line-height: 40px;
     width: 80%;
+    margin: 3% auto;
 }
     /* Slider Hero */
 
-       /* Slide- 2 */
+  /* Slide- 2 */
 
-   .up{
+  .up{
     animation: up 1000ms ease ;
     animation-fill-mode: forwards;
     animation-delay: 500ms;
@@ -207,7 +210,7 @@
     }
 
     100%{
-        transform: translate(-25%, -85%);
+        transform: translate(-25%, -95%);
     }
    }
    .down{
@@ -218,35 +221,40 @@
 
    @keyframes down {
     0%{
-        transform: translate(15%, -132%);
+        transform: translate(35%, -132%);
     }
 
     100%{
-        transform: translate(15%, 110%);
+        transform: translate(35%, 60%);
     }
    }
 
 .hero-home-slide-2-ball-1 img{
-    width: 100%;
-    transform: translate(-25%, -85%);
+    width: 80%;
+    transform: translate(-25%, -95%);
 }
 
 .hero-home-slide-2-ball-2 img{
-    width: 100%;
-    transform: translate(15%, 110%);
+    width: 80%;
+    transform: translate(35%, 60%);
 }
 
-.hero-home-slide-2-rectangle {
-    width: 350px;
-    height: 200px;
-    border-radius: 40px;
-    backdrop-filter: blur(5px);
-    transform: rotate(-290deg) translate(20px, -50px);
+.hero-home-slide-2-text h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin: 3% auto 0% auto;
 }
-
-.rotate-up{
-    animation: rotate-up  2000ms linear ;
-    animation-fill-mode: forwards;
+.hero-bold-text{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.hero-home-slide-2-rectangle{
+    width: 260px;
+    height: 160px;
+    border-radius: 30px;
+    top: -185%;
+    transform: rotate(-290deg)  translate(-6px, -20px) ;      
 }
 @keyframes rotate-up {
     0%{
@@ -254,10 +262,24 @@
         transform: rotate(0deg) translate(300px, 300px );
     }
     100%{
-        transform: rotate(-290deg)  translate(20px,-50px);
+        transform: rotate(-290deg)  translate(-6px, -20px);
         opacity: 1; 
     }
 }
+@keyframes expand{
+    0%{
+        transform: rotate(-290deg) scale(1) ;
+    }
+    100%{
+        transform: rotate(360deg) scale(2) ;
+        opacity: 0;
+    }
+}
+.hero-bold-text{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+    }
 
 .hero-home-slide-2-text{
     width: 115%;
@@ -269,17 +291,14 @@
         line-height: 40px;
         width: 100%;
 }
-.hero-bold-text{
-    font-size: 40px;
-    line-height: 40px;
-}
+
 .hero-home-slide-3-text{
     flex-basis: 35%;
 }
 .hero-home-slide-3-text h1{
-    font-size: 40px;
-    line-height: 40px;
-    margin: 10% auto;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 3% auto;
     width: 100%;
 }
 
@@ -515,84 +534,86 @@
     }
     .nav-inner{
         justify-content: space-between;
-        padding: 0 50px;
+        padding: 0 30px;
     }
     .nav-links{
         display: none;
     }
 
     .hero-text h1{
-        font-size: 40px;
-        line-height: 40px;
-        margin-top: 100px;
+        font-size: 36px;
+        line-height: 36px;
         width: 100%;
     }
-
-
     .hero-wheel img{
         width: 7%;
     }
 
     /* Slide 2 */
     .hero-home-slide-2-text{
-        margin-top: 50px;
         width: 100%;
     }
     .hero-home-slide-2{
         grid-template-columns: 1fr 2fr 1fr;
     }
-    
-   .up{
-    animation: up 1000ms ease ;
-    animation-fill-mode: forwards;
-    animation-delay: 500ms;
-   }
-
-   @keyframes up {
-    0%{
-        transform: translate(-25%, 112%);    
-    }
-    100%{
-        transform: translate(-25%, -125%);
-    }
-   }
-   .down{
-        animation: down 1000ms ease;
+    .up{
+        animation: up 1000ms ease ;
         animation-fill-mode: forwards;
         animation-delay: 500ms;
-   }
-
-   @keyframes down {
-    0%{
-        transform: translate(15%, -132%);
-    }
-
-    100%{
-        transform: translate(15%, 250%);
-    }
-   }
-
-.hero-home-slide-2-ball-1 img{
-    width: 100%;
-    transform: translate(-25%, -125%);
-}
-
-.hero-home-slide-2-ball-2 img{
-    width: 100%;
-    transform: translate(15%, 250%);
-}
-
+       }
     
+       @keyframes up {
+        0%{
+            transform: translate(-20%, 112%);
+            
+        }
+    
+        100%{
+            transform: translate(-20%, -125%);
+        }
+       }
+       .down{
+            animation: down 1000ms ease;
+            animation-fill-mode: forwards;
+            animation-delay: 500ms;
+       }
+    
+       @keyframes down {
+        0%{
+            transform: translate(25%, -132%);
+        }
+    
+        100%{
+            transform: translate(25%, 80%);
+        }
+       }
+    
+    .hero-home-slide-2-ball-1 img{
+        width: 100%;
+        transform: translate(-20%, -125%);
+    }
+    
+    .hero-home-slide-2-ball-2 img{
+        width: 100%;
+        transform: translate(25%, 80%);
+    }
+    
+    .hero-home-slide-2-text h1{
+            font-size: 36px;
+            line-height: 36px;
+            margin: 3% auto 0% auto;
+    }
+    .hero-bold-text{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 36px;
+    }
     .hero-home-slide-2-rectangle{
-            width: 240px;
-            height: 140px;
-            position: relative;
-            transform: rotate(-290deg)  translate(-46px, -40px) ;
-    }
-    
-    .rotate-up{
-        animation: rotate-up  2000ms linear ;
-        animation-fill-mode: forwards;
+        width: 240px;
+        height: 150px;
+        border-radius: 30px;
+        top: -185%;
+        transform: rotate(-290deg)  translate(-6px, -20px) ;      
     }
     @keyframes rotate-up {
         0%{
@@ -600,41 +621,29 @@
             transform: rotate(0deg) translate(300px, 300px );
         }
         100%{
-            transform: rotate(-290deg)  translate(-46px, -40px);
+            transform: rotate(-290deg)  translate(-6px, -20px);
             opacity: 1; 
         }
-    }
-    .expand{
-        animation: expand 2000ms linear ;
-        animation-fill-mode: forwards;
     }
     @keyframes expand{
         0%{
             transform: rotate(-290deg) scale(1) ;
         }
         100%{
-            transform: rotate(360deg) scale(3) ;
-            opacity: 0;  
+            transform: rotate(360deg) scale(2) ;
+            opacity: 0;
         }
     }
 
-.hero-home-slide-2-text h1{
-        font-size: 35px;
-        line-height: 35px;
-    }
-.hero-bold-text{
-        font-size: 35px;
-        line-height: 35px;
-    }
 
+    
 .hero-home-slide-3-text{
         flex-basis: 50%;
-        margin-top: 100px;
     }
 .hero-home-slide-3-text h1{
-        font-size: 35px;
-        line-height: 35px;
-        margin: 10% auto;
+        font-size: 36px;
+        line-height: 36px;
+        margin: 3% auto;
         width: 100%;
     }
 
@@ -985,7 +994,7 @@ footer{
 @media screen and (max-width:426px) {
 
     .nav-inner{
-        padding: 0 25px;
+        padding: 0 20px;
         margin: 0px 5%;
     }
 
@@ -993,9 +1002,8 @@ footer{
         font-size: 30px;
         line-height: 30px;
         width: 80%;
-        margin: 30% auto 0% auto;
+        margin: 0% auto 0% auto;
     }
-
 
     .hero-wheel img{
         width: 7%;
@@ -1009,6 +1017,7 @@ footer{
         font-size: 30px;
         line-height: 30px;
         width: 68%;
+        margin: 0% auto 0% auto;
     }
     .hero-bold-text{
         font-size: 30px;
@@ -1032,68 +1041,104 @@ footer{
         margin: 10% auto;
         width: 80%;
     }
-
+    .hero-home-slide-2-rectangle{
+        width: 200px;
+        height: 120px;
+        border-radius: 20px;
+        border: 4px solid white;
+        top: -185%;
+        transform: rotate(-290deg)  translate(-6px, -20px) ;      
+    }
+    @keyframes rotate-up {
+        0%{
+            opacity: 1;
+            transform: rotate(0deg) translate(300px, 300px );
+        }
+        100%{
+            transform: rotate(-290deg)  translate(-6px, -20px);
+            opacity: 1; 
+        }
+    }
+    @keyframes expand{
+        0%{
+            transform: rotate(-290deg) scale(1) ;
+        }
+        100%{
+            transform: rotate(360deg) scale(2) ;
+            opacity: 0;
+        }
+    }
 
     /* Slide 3 */
+
+.hero-home-slide-3-text{
+        flex-basis: 50%;
+    }
+.hero-home-slide-3-text h1{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0% auto;
+        width: 100%;
+    }
+
 .slide-3-img-1 img{
-        transform: translate(-21px, 314px);
+        transform: translate(-90px, 0px);
         width: 140%;
     }
 .slide-3-img-2 img {
-        transform: translate(22px, 239px);
+        transform: translate(-46px, -74px);
         width: 140%;
     }
 .slide-3-img-3 img {
-        transform: translate(65px, 163px);
+        transform: translate(-4px, -147px);
         width: 140%;
     }
 .slide-3-img-4 img {
-        transform: translate(107px, 88px);
+        transform: translate(39px, -220px);
         width: 140%;
     }
 .slide-3-img-5 img {
-        transform: translate(151px, 14px);
+        transform: translate(82px, -293px);
         width: 140%;
     }
 @keyframes diagonal-1 {
     0%{
-        transform: translate(-67px, 256px);
+        transform: translate(-144px, -59px);
     }
     100%{
-        transform: translate(-21px, 314px);
+        transform: translate(-90px, 0px);
     }
 }
 @keyframes diagonal-2 {
     0%{
-        transform: translate(-21px, 172px);
+        transform: translate(-90px, -143px);
     }
     100%{
-        transform: translate(22px, 239px);
+        transform: translate(-46px, -74px);
     }
 }
 @keyframes diagonal-3 {
     0%{
-        transform: translate(23px, 96px);
-      
+        transform: translate(-46px, -216px);
     }
     100%{
-        transform: translate(65px, 163px);
+        transform: translate(-4px, -147px);
     }
 }
 @keyframes diagonal-4 {
     0%{
-        transform: translate(65px, 20px);
+        transform: translate(-4px, -290px);
     }
     100%{
-        transform: translate(107px, 88px);
+        transform: translate(39px, -220px);
     }
 }
 @keyframes diagonal-5 {
     0%{
-        transform: translate(108px, -55px);
+        transform: translate(38px, -363px);
     }
     100%{
-        transform: translate(151px, 14px);
+        transform: translate(82px, -293px);
     }
 }
     /* --------------------------------------------- */
