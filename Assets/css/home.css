@@ -10,7 +10,6 @@ html{
 body{
     font-family: var(--manrope-font-family);
     box-sizing: border-box;
-    
 }
 
 .home-body{
@@ -110,7 +109,6 @@ a{
     padding: 15px 0 15px 40px ;
     transition: all 300ms;
     color: rgba(255, 255, 255, 0);
-
 }
 .mobile-nav-links li:hover{
     background: rgba(232, 234, 242, 1);
