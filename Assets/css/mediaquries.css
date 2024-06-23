@@ -1509,7 +1509,7 @@ footer{
     
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
  
     .hero-text h1{
         font-size: 25px;
@@ -1527,37 +1527,15 @@ footer{
     }
 
         /* Slide 3 */
-        .slide-3-img-1 img{
-            display: none;
-        }
-        .slide-3-img-2 img {
-            display: none;
-        }
-        .slide-3-img-3 img {
-            display: none;
-        }
-        .slide-3-img-4 img {
-            display: none;
-        }
-        .slide-3-img-5 img {
-            display: none;
-        }
-    .slide-3-banner-img-1 img{
-        display: none;
+.hero-home-slide-3-text{
+        flex-basis: 50%;
     }
-    .slide-3-banner-img-2 img{
-        display: none;
+.hero-home-slide-3-text h1{
+        font-size: 25px;
+        line-height: 25px;
+        margin: 0% auto;
+        width: 100%;
     }
-    .slide-3-banner-img-3 img{
-        display: none;
-    }
-    .slide-3-banner-img-4 img{
-        display: none;
-    }
-    .slide-3-banner-img-5 img{
-        display: none;
-    }
-
 
 
 /* About Section Start */
@@ -1606,12 +1584,48 @@ footer{
 }
 
 @media screen and (max-width: 320px) {
-    .hero-text h1{
-        width: 250px;
-    }
-    .hero-home-slide-2-text h1 {
-        width: 80%;
-    }
+.hero-text h1{
+    width: 250px;
+}
+.hero-home-slide-2-text h1 {
+    width: 80%;
+}
+.hero-home-slide-3-text{
+    flex-basis: 100%;
+}
+.hero-home-slide-3-text h1{
+    width: 75%;
+}
+.slide-3-img-1 img{
+    display: none;
+}
+.slide-3-img-2 img {
+    display: none;
+}
+.slide-3-img-3 img {
+    display: none;
+}
+.slide-3-img-4 img {
+    display: none;
+}
+.slide-3-img-5 img {
+    display: none;
+}
+.slide-3-banner-img-1 img{
+    display: none;
+}
+.slide-3-banner-img-2 img{
+    display: none;
+}
+.slide-3-banner-img-3 img{
+    display: none;
+}
+.slide-3-banner-img-4 img{
+    display: none;
+}
+.slide-3-banner-img-5 img{
+    display: none;
+}
 
     /* About Section Start*/
 
