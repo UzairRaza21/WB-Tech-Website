@@ -1044,6 +1044,33 @@ a{
         right: 5%;
     }
 
+                /* Media Queries for Responsiveness */
+                @media (max-width: 1024px) {
+                    .testimonial-slider .slider-slide {
+                        flex: 1 0 100%;
+                        max-width: 100%;
+                    }
+                }
+        
+                /* @media (max-width: 768px) {
+                    .testimonial-slider .slider-slide {
+                        flex: 1 0 60%;
+                        max-width: 60%;
+                    }
+                }
+        
+                @media (max-width: 600px) {
+                    .testimonial-slider .slider-container {
+                        padding-top: 50px;
+                    }
+                    .testimonial-slider .slider-slide {
+                        flex: 1 0 80%;
+                        max-width: 80%;
+                    }
+                    .testimonial-slider .testimonial-img img {
+                        margin-top: -100px;
+                    }
+                } */
     /* Client Section */
 .served-companies{
     margin: 5% 0;
