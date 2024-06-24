@@ -178,16 +178,16 @@
 	backface-visibility: hidden;
 	transform: rotateY(-180deg);
 	background: white;
-	transition: 0.7s;
+	transition: transform 0.5s, height 0.7s, visibility 0.1s;
     border-radius: 20px;
     visibility: hidden;
+    transition-delay: visibility 0.5s;
 }
 
 .packages-linkpage-carts:hover .packages-linkpage-card-back{
     transform: rotateY(0deg) translateY(-12px);
     height: auto;
     visibility: visible;
-    /* opacity: 1; */
 }
 
 .packages-linkpage-carts:hover .packages-linkpage-card-front{
@@ -198,7 +198,7 @@
     color: rgba(13, 148, 53, 1);
     font-size: 30px;
     transform: translateZ(50px);
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .packages-linkpage-card-back{
     padding-inline: 50px;
@@ -206,11 +206,12 @@
 
 .packages-linkpage-card-back ul{
     transform-style: preserve-3d;
+    padding: 10px 0px 70px 0px;
 }
 .packages-linkpage-card-back li{
     text-align: left;
     color: var(--para-color);
-    margin-block: 10px;
+    margin-block: 5px;
     transform: translateZ(50px);
 }
 
