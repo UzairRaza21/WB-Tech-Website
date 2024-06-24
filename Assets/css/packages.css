@@ -139,7 +139,9 @@
     font-size: 20px;
     transform: translateZ(60px);
 } 
-
+.startup-package-font-color h3{
+    color: rgba(13, 148, 53, 1);
+}
 .sliver-package-bg-color{
      background: linear-gradient(270deg, #05857D -6.45%, #0ACE9E 123.42%);
 }
@@ -195,7 +197,7 @@
 }
 
 .packages-linkpage-card-back h3{
-    color: rgba(13, 148, 53, 1);
+
     font-size: 30px;
     transform: translateZ(50px);
     padding-top: 30px;
