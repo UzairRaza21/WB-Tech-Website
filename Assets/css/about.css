@@ -1,0 +1,11 @@
+.about-heading h2{
+    transform: translateX(-55px);
+    font-size: var(--main-font-size-1920px);
+    font-weight: 500;
+    color: var(--heading-color);
+}
+.about-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
