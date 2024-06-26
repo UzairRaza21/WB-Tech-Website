@@ -79,7 +79,7 @@
 
 .service-webdev-section-3{
     background-color: white;
-    border-radius: 80px 80px 0 0;
+    border-radius: 100px 100px 0 0;
     height: 1000px;
     margin-top: 100px;
 }
@@ -196,4 +196,84 @@
     align-items: center;
     gap: 20px;
     height: 500px;
+}
+
+
+/* Services Inner Page Graphic Designing */
+
+
+.service-graphic-section-3{
+    background-color: white;
+    border-radius: 100px 100px 0 0;
+    height: 750px;
+    margin-top: 100px;
+}
+
+.service-graphic-section-3-innerbox{
+    height: 400px;
+    width: 90%;
+    border-radius: 100px;
+    background-color: rgb(76, 76, 103);
+    margin: 80px auto;
+    position: relative;
+    top: 10%;
+    overflow: hidden;
+    display: flex;
+}
+.service-section-3-left{
+    height: 100%;
+    width: 40%;
+    background: rgba(71, 117, 255, 1);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.service-section-3-right{
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(90deg, #A9A9A9 0%, #E3E3E3 4.5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 80px;
+}
+
+.service-section-3-left h2{
+    font-size: var(--main-font-size-1920px);
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.service-section-3-right p{
+    width: 70%;
+}
+
+.services-graphic-section-6{
+    background-color: white;
+    height: 500px;
+    padding-block: 100px;
+}
+
+.services-graphic-section-6-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-graphic-section-6-text h2{
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.services-graphic-section-6-text p{
+    color: var(--para-color);
+    font-size: var(--para-font-size-1920px);
+    width: 75%;
+    margin-top: 10px;
 }

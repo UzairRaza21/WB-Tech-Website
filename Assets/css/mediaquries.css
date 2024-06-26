@@ -195,6 +195,9 @@
 }
 
 /* Serives WEB Developement */
+.service-webdev-section-2-inner {
+    padding-inline: 50px;
+}
 .service-webdev-section-2-text h2 {
     font-size: var(--main-font-size-1440px) !important;
     width: 60%;
@@ -213,6 +216,15 @@
     font-size: var(--main-font-size-1440px) !important;
     width: 60%;
     margin: 80px auto;
+}
+
+.services-graphic-section-6-text h2 {
+    font-size: var(--main-font-size-1440px) !important;
+    width: 50%;
+}
+.services-graphic-section-6-text p {
+    font-size: var(--para-font-size-1440px) !important;
+    width: 75%;
 }
 }
 
@@ -637,6 +649,32 @@
     width: 260px !important;
 }
 
+.service-graphic-section-3-innerbox{
+    height: 300px !important;
+}
+
+.service-section-3-left h2 {
+    font-size: var(--main-font-size-1024px) !important;
+    width: 50% !important;
+}
+.service-section-3-right p {
+    width: 70%;
+    font-size: var(--para-font-size-1024px);
+}
+.service-graphic-section-3 {
+    height: 650px !important;
+}
+.services-graphic-section-6-text h2 {
+    font-size: var(--main-font-size-1024px) !important;
+    width: 80% !important;
+}
+.services-graphic-section-6-text p {
+    font-size: var(--para-font-size-1024px) !important;
+}
+.services-graphic-section-6 {
+    padding-block: 80px !important;
+    padding-inline: 80px;
+}
 }
 @media screen and (max-width: 768px) {
     .mobile-nav-main{
@@ -1263,8 +1301,35 @@ footer{
     width: 260px !important;
 }
 .service-webdev-button {
-    width: 50% !important;
+    width: 20% !important;
     margin: 50px auto !important;
+}
+
+
+.services-graphic-section-6-text h2 {
+    font-size: var(--main-font-size-768px) !important;
+    width: 100% !important;
+    text-align: center;
+}
+.services-graphic-section-6-text p {
+    font-size: var(--para-font-size-768px) !important;
+    width: 80% !important;
+    text-align: center;
+    margin: 0 auto;
+}
+.services-graphic-section-6 {
+    padding-block: 50px !important;
+    padding-inline: 20px;
+}
+.services-graphic-section-6-inner {
+    flex-direction: column;
+}
+.services-graphic-section-6 {
+    height: auto !important;
+    padding-block: 100px;
+}
+.service-graphic-section-3 {
+    height: 450px !important;
 }
 }
 
@@ -1946,6 +2011,42 @@ footer{
 .service-webdev-button {
     width: 50% !important;
     margin: 50px auto !important;
+}
+
+.services-graphic-section-6-text h2 {
+    font-size: var(--main-font-size-425px) !important;
+    width: 100% !important;
+}
+.services-graphic-section-6-text p {
+    font-size: var(--para-font-size-425px) !important;
+    width: 80% !important;
+}
+
+.service-graphic-section-3-innerbox {
+    height: 350px !important;
+}
+.service-section-3-left {
+    width: 50% !important;
+    justify-content: center !important;
+}
+.service-section-3-left h2 {
+    font-size: var(--main-font-size-425px) !important;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 80% !important;
+}
+.service-section-3-right {
+    width: 50% !important;
+    padding-inline: 5px !important;
+}
+.service-section-3-right p {
+    width: 70%;
+    font-size: 10px !important;
+}
+
+.service-section-3-left h2 {
+    font-size: var(--main-font-size-425px) !important;
 }
 }
 
