@@ -62,7 +62,7 @@
     flex-basis: 50%;
 }
 .service-webdev-section-2-img img{
-    width: 100%;
+    width: 80%;
 }
 .service-webdev-section-2-text h2{
     color: var(--heading-color);
