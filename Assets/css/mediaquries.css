@@ -2358,7 +2358,13 @@ footer{
 .services-animation-section-inner p {
     font-size: var(--para-font-size-425px) !important;
 }
-
+.services-animation-section-lower-inner {
+    display: flex;
+    gap: 20px;
+    overflow: visible !important;
+    padding: 40px;
+    flex-direction: column;
+}
 
 
 }
