@@ -251,9 +251,8 @@
 }
 
 .services-graphic-section-6{
-    background-color: white;
     height: 500px;
-    padding-block: 100px;
+    background: linear-gradient(180deg, var(--heading-color) 50%, white 50%);
 }
 
 .services-graphic-section-6-inner{
@@ -261,19 +260,37 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 100%;
+    height: 500px;
 }
 
 .services-graphic-section-6-text h2{
-    color: var(--heading-color);
+    color: white;
     font-size: var(--main-font-size-1920px);
     font-weight: 400;
     text-transform: uppercase;
     width: 50%;
+    height: 250px;
+    margin-top: 80px;
 }
 
 .services-graphic-section-6-text p{
     color: var(--para-color);
     font-size: var(--para-font-size-1920px);
     width: 75%;
-    margin-top: 10px;
+    height: 250px;
+}
+
+.service-working-process-section{
+    background-color: white;
+}
+.service-working-process-section-inner{
+    padding-top: 100px;
+}
+.service-working-process-section-inner h2{
+    color: var(--heading-color);
+    font-size: var(--main-font-size-1920px);
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 35%;
 }
