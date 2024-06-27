@@ -43,7 +43,6 @@
     flex-direction: column;
     gap: 40px;
     width: 35%;
-
 }
 .about-left-inner{
     display: flex;
@@ -162,5 +161,4 @@
     width: 850px ;
     height: 450px;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.3);
-
 }

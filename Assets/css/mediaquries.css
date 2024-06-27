@@ -226,6 +226,12 @@
     font-size: var(--para-font-size-1440px) !important;
     width: 75%;
 }
+/* ABOUT PAGE */
+.contact-location h2 {
+    font-size: var(--main-font-size-1440px) !important;
+    width: 25% !important;
+}
+
 }
 
 
@@ -675,6 +681,35 @@
     padding-block: 80px !important;
     padding-inline: 80px;
 }
+
+/* About Page */
+.about-left-text h2 {
+    font-size: 15px !important;
+}
+.about-left-text p {
+    font-size: 13px !important;
+}
+.contact-form-right {
+    padding-inline: 40px !important;
+    padding-block: 35px !important;
+}
+.contact-textarea {
+    height: 240px !important;
+    font-size: 14px !important;
+}
+.contact-input {
+    font-size: 14px !important;
+}
+.contact-form-submission{
+    font-size: 14px;
+}
+.contact-submit {
+    font-size: 14px !important;
+}
+.contact-location h2 {
+    font-size: var(--main-font-size-1024px) !important;
+}
+
 }
 @media screen and (max-width: 768px) {
     .mobile-nav-main{
@@ -1330,6 +1365,50 @@ footer{
 }
 .service-graphic-section-3 {
     height: 450px !important;
+}
+
+/* About Page */
+.about-left-inner {
+    margin-inline: 10px !important;
+}
+.about-left-text h2 {
+    font-size: 13px !important;
+}
+.about-left-text p {
+    font-size: 12px !important;
+}
+.contact-form-right {
+    padding-inline: 35px !important;
+    padding-block: 35px !important;
+    width: 45% !important;
+
+}
+.contact-textarea {
+    height: 240px !important;
+    font-size: 14px !important;
+}
+.contact-input {
+    font-size: 14px !important;
+}
+.contact-form-submission{
+    font-size: 14px;
+}
+.contact-submit {
+    font-size: 14px !important;
+}
+.contact-location h2 {
+    font-size: var(--main-font-size-768px) !important;
+    width: 30% !important;
+}
+.contact-location-map iframe{
+    border-radius: 20px;
+    margin-top: -100px;
+    width: 550px !important ;
+    height: 350px !important;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.contact-location-map {
+    height: 350px !important;
 }
 }
 
@@ -2048,6 +2127,54 @@ footer{
 .service-section-3-left h2 {
     font-size: var(--main-font-size-425px) !important;
 }
+
+/* ABOUT PAGE  */
+
+.contact-form-main {
+    gap: 50px !important;
+    padding-block: 70px !important;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.contact-form-left{
+    width: 90% !important;
+}
+.contact-form-right {
+    padding-inline: 35px !important;
+    padding-block: 35px !important;
+    width: 85% !important;
+}
+
+.contact-location h2 {
+    font-size: var(--main-font-size-425px) !important;
+    width: 50% !important;
+}
+.contact-location-map iframe{
+    border-radius: 20px;
+    margin-top: -100px;
+    width: 350px !important ;
+    height: 300px !important;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.contact-location-map {
+    height: 300px !important;
+}
+.contact-form-inner h2 {
+    font-size: var(--main-font-size-425px) !important;
+}
+.contact-submit {
+    width: 45% !important;
+}
+.contact-form-submission span{
+    font-size: 12px;
+}
+.contact-textarea {
+    height: 200px !important;
+}
+.contact-header-bg {
+    height: 70vh !important;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -2224,4 +2351,46 @@ footer{
     .package-buy-button{ 
         width: 280px !important;
     }
+
+    /* ABOUT PAGE  */
+
+.contact-form-main {
+    gap: 50px !important;
+    padding-block: 70px !important;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.contact-form-left{
+    width: 90% !important;
+}
+.contact-form-right {
+    padding-inline: 25px !important;
+    padding-block: 25px !important;
+    width: 85% !important;
+}
+
+.contact-location h2 {
+    font-size: var(--main-font-size-375px) !important;
+    width: 50% !important;
+}
+.contact-location-map iframe{
+    width: 300px !important ;
+    height: 300px !important;
+}
+.contact-location-map {
+    height: 300px !important;
+}
+.contact-form-inner h2 {
+    font-size: var(--main-font-size-425px) !important;
+}
+.contact-submit {
+    width: 50% !important;
+}
+.contact-form-submission span{
+    font-size: 10px;
+}
+.contact-header-bg {
+    height: 60vh !important;
+}
 }
