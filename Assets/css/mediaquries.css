@@ -220,6 +220,22 @@
 .service-heading-img img{
     width: 100%;
 }
+/* ABOUT PAGE HERO */
+.about-heading h2{
+    transform: translateX(-80px) !important;
+    font-size: 55px !important;
+}
+.about-heading img{
+    width: 90% !important;
+}
+/* Contact Hero Heading */
+.contact-heading h2{
+    transform: translateX(-80px) !important;
+    font-size: 55px !important;
+}
+.contact-heading-img img{
+    width: 100% !important;
+}
 /* Serives WEB Developement */
 .service-webdev-section-2-inner {
     padding-inline: 50px;
@@ -580,6 +596,35 @@
 .services-heading-img img{
     width: 90% !important;
 }
+
+/* Packages Page Hero */
+
+.packages-heading-img img{
+    width: 40% !important;
+}
+.packages-heading h2{
+    transform: translateX(-120px) !important;
+    font-size: 40px !important;
+}
+
+/* ABOUT PAGE HERO */
+.about-heading h2{
+    transform: translateX(-85px) !important;
+    font-size: 40px !important;
+}
+.about-heading img{
+    width: 60% !important;
+}
+
+/* Contact Hero Heading */
+.contact-heading h2{
+    transform: translateX(-75px) !important;
+    font-size: 40px !important;
+}
+.contact-heading-img img{
+    width: 90% !important;
+}
+
 
 .portfolio-page-carts {
     flex-direction: column;
@@ -1265,6 +1310,14 @@ footer{
     margin-left: 45px !important;
 }
 
+/* Contact Hero Heading */
+.contact-heading h2{
+    transform: translateX(-100px) !important;
+    font-size: 45px !important;
+}
+.contact-heading-img img{
+    width: 80% !important;
+}
 
 
 /* Web Development Page */
@@ -2143,7 +2196,29 @@ footer{
     text-align: center;
 }
 
+/* Contact Hero Heading */
+.contact-heading{
+    margin-left: 80px;
+}
+.contact-heading h2{
+    transform: translateX(-110px) !important;
+    font-size: 40px !important;
+}
+.contact-heading-img img{
+    width: 60% !important;
+}
 
+/* Packages Page Hero */
+.packages-heading{
+    margin-left: 60px;
+}
+.packages-heading-img img{
+    width: 40% !important;
+}
+.packages-heading h2{
+    transform: translateX(-100px) !important;
+    font-size: 35px !important;
+}
 /* Our Services Page Hero */
 .services-heading{
     margin-left: 50px;
@@ -2567,6 +2642,17 @@ footer{
     text-align: center;
 }
 
+/* Packages Page Hero */
+.packages-heading{
+    margin-left: 60px;
+}
+.packages-heading-img img{
+    width: 40% !important;
+}
+.packages-heading h2{
+    transform: translateX(-90px) !important;
+    font-size: 35px !important;
+}
 /* Our Services Page Hero */
 .services-heading{
     margin-left: 50px !important;
@@ -2577,6 +2663,18 @@ footer{
 }
 .services-heading-img img{
     width: 70%!important;
+}
+
+/* Contact Hero Heading */
+.contact-heading{
+    margin-left: 80px;
+}
+.contact-heading h2{
+    transform: translateX(-95px) !important;
+    font-size: 35px !important;
+}
+.contact-heading-img img{
+    width: 60% !important;
 }
 .portfolio-cart-inner {
     flex-direction: column-reverse !important;
@@ -2681,6 +2779,29 @@ footer{
     text-align: center;
 }
 
+/* Packages Page Hero */
+.packages-heading{
+    margin-left: 60px;
+}
+.packages-heading-img img{
+    width: 80% !important;
+}
+.packages-heading h2{
+    transform: translateX(-55px) !important;
+    font-size: 35px !important;
+}
+
+/* Contact Hero Heading */
+.contact-heading{
+    margin-left: 80px;
+}
+.contact-heading h2{
+    transform: translateX(-60px) !important;
+    font-size: 32px !important;
+}
+.contact-heading-img img{
+    width: 80% !important;
+}
 
 /* Our Services Page Hero */
 .services-heading{

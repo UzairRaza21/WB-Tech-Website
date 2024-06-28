@@ -20,8 +20,8 @@
     height: 90vh;
 }
 .contact-heading h2{
-    transform: translateX(-65px);
-    font-size: var(--main-font-size-1920px);
+    transform: translateX(-90px);
+    font-size: 60px;
     font-weight: 500;
     color: var(--heading-color);
 }
@@ -29,6 +29,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.contact-heading-img img{
+    width: 100%;
 }
 
 .contact-form-main{

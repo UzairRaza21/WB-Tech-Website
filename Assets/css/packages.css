@@ -93,7 +93,7 @@
 .packages-linkpage-carts-header{
     width: 100%;
     height: 150px;
-    background: linear-gradient(270deg, #0A9031 0%, #22B353 100%);
+    background: linear-gradient(269.98deg, #3092C9 0.02%, #9CD0ED 113.79%);
     border-radius: 18px;
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@
 }
 .packages-linkpage-carts-data h3{
     font-size: 50px;
-    color: rgba(13, 148, 53, 1);
+    color: rgba(60, 153, 205, 1);
     font-weight: 400;
     font-family: Lexend Deca;
     transform: translateZ(60px);
@@ -140,22 +140,23 @@
 
 
 .startup-package-font-color h3{
-    color: rgba(13, 148, 53, 1);
+    color: rgba(60, 153, 205, 1);
 }
 .sliver-package-bg-color{
-     background: linear-gradient(270deg, #05857D -6.45%, #0ACE9E 123.42%);
+    background: linear-gradient(270.02deg, #0449B0 -20.23%, #00A8E9 99.98%);
 }
 .silver-package-font-color h3{
- color: rgba(6, 146, 131, 1);
- ;
+    color: rgba(34, 111, 225, 1);
 }
 
 .professional-package-bg-color{
-    background: linear-gradient(270.02deg, #0449B0 -20.23%, #00A8E9 99.98%);
+    background: linear-gradient(270deg, #0D3BB4 -6.45%, #3462DD 103.16%);
+
 }
 
 .professional-package-font-color h3{
-    color: rgba(4, 95, 189, 1);
+    color: rgba(12, 75, 198, 1);
+
 }
 
 
@@ -234,26 +235,27 @@
     font-weight: 300;
 }
 .professional-button{
-    background: rgba(4, 95, 189, 1);
+    background: rgba(12, 75, 198, 1);
     transition: all 500ms;
 }
 .professional-button:hover{
-    background: #00A8E9 ;
+    background: rgb(77, 128, 230);
 }
 .sliver-button{
-    background: rgba(6, 146, 131, 1)  ;
+    background: rgba(34, 111, 225, 1);
     transition: all 500ms;
 }
 .sliver-button:hover{
-    background: rgb(49, 195, 181)  ;
+    background: rgb(117, 164, 234);
     transition: all 500ms;
 }
 .starter-button{
-    background: rgba(13, 148, 53, 1) ;
+    background: rgba(60, 153, 205, 1);
     transition: all 500ms;
 }
 .starter-button:hover{
-    background: #22B353;
+    background: rgb(122, 189, 227);
+
 }
 
 
