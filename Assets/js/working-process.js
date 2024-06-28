@@ -16,19 +16,19 @@ let slideIndex = 1;
     function currentSlide(n) {
         clearInterval(autoPlayInterval);
         showSlides(slideIndex = n);
-        autoPlayInterval = setInterval(() => plusSlides(1), 2000);
+        autoPlayInterval = setInterval(() => plusSlides(1), 3000);
     }
 
     function plusSlides(n) {
         clearInterval(autoPlayInterval);
         showSlides(slideIndex += n);
         updateNumberSequence(numberIndex += n);
-        autoPlayInterval = setInterval(() => plusSlides(1), 2000);
+        autoPlayInterval = setInterval(() => plusSlides(1), 3000);
     }
 
     function updateNumberSequence(n) {
-        if (n > 6) numberIndex = 1;
-        if (n < 1) numberIndex = 6;
+        if (n > wslides.length) numberIndex = 1;
+        if (n < 1) numberIndex = wslides.length;
         nextButton.textContent = numberIndex;
     }
 

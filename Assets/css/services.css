@@ -426,3 +426,11 @@
     margin-top: -200px;
 }
 
+/* Services inner page Social Media */
+
+.service-social-media-section-2{
+    margin: 0px auto !important;
+    width: 95%;
+    height: 500px; 
+    padding-top: 60px;
+}
