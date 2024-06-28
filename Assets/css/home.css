@@ -888,6 +888,7 @@ a{
     border-radius: 20px;
     position: absolute;
     z-index: 1;
+    /* text-shadow: 1px 1px 10px var(--para-color); */
 
 }
 @keyframes flip {

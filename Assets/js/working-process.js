@@ -2,7 +2,7 @@ let slideIndex = 1;
     let numberIndex = 1;
     const wslides = document.querySelectorAll('.slide');
     const nextButton = document.querySelector('.next-button');
-    let autoPlayInterval = setInterval(() => plusSlides(1), 2000); // Change slide every 3 seconds
+    let autoPlayInterval = setInterval(() => plusSlides(1), 3000); // Change slide every 3 seconds
 
     function showSlides(n) {
         if (n > wslides.length) slideIndex = 1;
