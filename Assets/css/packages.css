@@ -26,11 +26,18 @@
     justify-content: center;
 }
 
+.packages-heading-img img{
+    width: 80% !important;
+}
 .packages-heading h2{
-    transform: translateX(-85px);
-    font-size: var(--main-font-size-1920px);
+    transform: translateX(-160px);
+    font-size: 60px;
     font-weight: 500;
     color: var(--heading-color);
+}
+
+.packages-bg{
+    background-image: url(../Images/Packages/Packages\ Banner\ 1.png);
 }
 
 /* WEB Developement Inner Page */
