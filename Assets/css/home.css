@@ -921,6 +921,7 @@ a{
 .working-process-slider .slide-text h1{
     color: var(--heading-color);
     font-weight: 600;
+    text-transform: uppercase;
 }
 .working-process-slider .slide-text p{
     color: var(--para-color);
